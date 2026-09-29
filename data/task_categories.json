@@ -1,0 +1,79 @@
+{
+    "company_information": [
+        "company_overview",
+        "incorporation_details",
+        "registered_office",
+        "business_activity",
+        "history_and_milestones"
+    ],
+    "promoters_and_management": [
+        "promoter_details",
+        "promoter_shareholding",
+        "director_details",
+        "key_managerial_personnel",
+        "management_experience"
+    ],
+    "capital_structure": [
+        "authorized_share_capital",
+        "issued_share_capital",
+        "paid_up_share_capital",
+        "pre_issue_shareholding",
+        "post_issue_shareholding"
+    ],
+    "financial_information": [
+        "revenue",
+        "profit",
+        "assets",
+        "liabilities",
+        "net_worth",
+        "financial_ratios"
+    ],
+    "litigation": [
+        "pending_litigation",
+        "material_litigation",
+        "claim_amount",
+        "court_details",
+        "case_status"
+    ],
+    "risk_factors": [
+        "business_risk",
+        "financial_risk",
+        "legal_risk",
+        "industry_risk",
+        "operational_risk"
+    ],
+    "objects_of_issue": [
+        "issue_purpose",
+        "use_of_proceeds",
+        "capital_expenditure",
+        "working_capital",
+        "general_corporate_purposes"
+    ],
+    "ipo_details": [
+        "issue_size",
+        "fresh_issue",
+        "offer_for_sale",
+        "price_band",
+        "lot_size",
+        "issue_dates"
+    ],
+    "industry_information": [
+        "industry_overview",
+        "market_position",
+        "competition",
+        "competitive_strengths"
+    ],
+    "legal_and_regulatory": [
+        "regulatory_compliance",
+        "licenses",
+        "material_contracts",
+        "legal_proceedings"
+    ],
+    "business_operations": [
+        "products_and_services",
+        "manufacturing",
+        "customers",
+        "suppliers",
+        "geographical_presence"
+    ]
+}
