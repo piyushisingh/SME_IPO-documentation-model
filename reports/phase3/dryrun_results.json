@@ -1,0 +1,41 @@
+{
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "total_vram_gb": 8.0,
+  "batch_size": 1,
+  "gradient_accumulation_steps": 8,
+  "effective_batch_size": 8,
+  "optim": "adamw_8bit",
+  "lora_r": 16,
+  "lora_alpha": 16,
+  "runs": {
+    "1024": {
+      "max_seq_length": 1024,
+      "total_steps": 20,
+      "elapsed_seconds": 168.66,
+      "seconds_per_step": 8.433,
+      "peak_vram_gb": 4.037,
+      "vram_headroom_gb": 3.958,
+      "train_loss": 4.1438,
+      "samples_per_second": 0.954,
+      "steps_per_second": 0.119
+    },
+    "1536": {
+      "max_seq_length": 1536,
+      "total_steps": 20,
+      "elapsed_seconds": 180.91,
+      "seconds_per_step": 9.046,
+      "peak_vram_gb": 4.035,
+      "vram_headroom_gb": 3.96,
+      "train_loss": 4.1438,
+      "samples_per_second": 0.889,
+      "steps_per_second": 0.111
+    }
+  },
+  "comparison": {
+    "step_time_increase_pct": 7.27,
+    "peak_vram_diff_gb": -0.002,
+    "truncation_rate_reduction_train_pct": 3.14,
+    "recommendation": "max_seq_len=1024 as default for faster training, with 1536 as high-context alternative if <3% truncation is desired."
+  }
+}
+

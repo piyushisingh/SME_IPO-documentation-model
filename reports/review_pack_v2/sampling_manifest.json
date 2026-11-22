@@ -1,0 +1,739 @@
+{
+  "metadata": {
+    "timestamp": "2026-11-21T14:10:08.649486",
+    "seed": 42,
+    "script": "src/sme_clf/make_review_pack_v2.py",
+    "source_hashes": {
+      "master_sections.jsonl": "24199fe4cb54512666fd362fa40c3db4c7d54ebb4a0ad95964031ac6d6fc8fd2",
+      "model_ready_manifest.jsonl": "c86a2d37b6e1a673998d3b3bb278b379d9c0758fc7c9e919d5a95f9043c774a1",
+      "train.jsonl": "0bf47eef6e0e52de6c6eb7ab7e84a7c42278ee836d13ea0a91b5b6a7b3cf45ac",
+      "validation.jsonl": "93bacacb6b5bfc9e43e357c39f80ca24c39f6d6f37e7558b2f1ab3b86b1ab763",
+      "test.jsonl": "0c8b6dc347ba5449bc2f7ed4c38e2cd9a6901ef8cc5693f79b09da1127df7627",
+      "review_queue.jsonl": "0b65848783d450494c3ba39b4fe4b3e0546336b798291d2123dc79ab57c1c400",
+      "dataset_statistics.json": "0b61de757162d1840710f0f85fc9e58af2e7eee422667866a0487fa16662bfe6"
+    }
+  },
+  "file_e_validation_strata": {
+    "business_operations": {
+      "N_h_before_filters": 32,
+      "N_h_eligible": 32,
+      "n_h_sampled": 5,
+      "inclusion_probability": 0.15625
+    },
+    "capital_structure": {
+      "N_h_before_filters": 19,
+      "N_h_eligible": 19,
+      "n_h_sampled": 4,
+      "inclusion_probability": 0.21053
+    },
+    "company_information": {
+      "N_h_before_filters": 39,
+      "N_h_eligible": 39,
+      "n_h_sampled": 6,
+      "inclusion_probability": 0.15385
+    },
+    "declarations": {
+      "N_h_before_filters": 1,
+      "N_h_eligible": 1,
+      "n_h_sampled": 1,
+      "inclusion_probability": 1.0
+    },
+    "disclosures_and_definitions": {
+      "N_h_before_filters": 12,
+      "N_h_eligible": 12,
+      "n_h_sampled": 3,
+      "inclusion_probability": 0.25
+    },
+    "financial_information": {
+      "N_h_before_filters": 59,
+      "N_h_eligible": 59,
+      "n_h_sampled": 7,
+      "inclusion_probability": 0.11864
+    },
+    "financial_statements": {
+      "N_h_before_filters": 98,
+      "N_h_eligible": 98,
+      "n_h_sampled": 11,
+      "inclusion_probability": 0.11224
+    },
+    "industry_information": {
+      "N_h_before_filters": 18,
+      "N_h_eligible": 18,
+      "n_h_sampled": 4,
+      "inclusion_probability": 0.22222
+    },
+    "ipo_details": {
+      "N_h_before_filters": 153,
+      "N_h_eligible": 151,
+      "n_h_sampled": 18,
+      "inclusion_probability": 0.11921
+    },
+    "legal_and_regulatory": {
+      "N_h_before_filters": 89,
+      "N_h_eligible": 87,
+      "n_h_sampled": 10,
+      "inclusion_probability": 0.11494
+    },
+    "litigation": {
+      "N_h_before_filters": 43,
+      "N_h_eligible": 43,
+      "n_h_sampled": 6,
+      "inclusion_probability": 0.13953
+    },
+    "objects_of_issue": {
+      "N_h_before_filters": 20,
+      "N_h_eligible": 20,
+      "n_h_sampled": 4,
+      "inclusion_probability": 0.2
+    },
+    "other": {
+      "N_h_before_filters": 0,
+      "N_h_eligible": 0,
+      "n_h_sampled": 0,
+      "inclusion_probability": 0.0
+    },
+    "promoters_and_management": {
+      "N_h_before_filters": 66,
+      "N_h_eligible": 65,
+      "n_h_sampled": 8,
+      "inclusion_probability": 0.12308
+    },
+    "qualitative_factors": {
+      "N_h_before_filters": 1,
+      "N_h_eligible": 1,
+      "n_h_sampled": 1,
+      "inclusion_probability": 1.0
+    },
+    "related_party_transactions": {
+      "N_h_before_filters": 10,
+      "N_h_eligible": 10,
+      "n_h_sampled": 3,
+      "inclusion_probability": 0.3
+    },
+    "risk_factors": {
+      "N_h_before_filters": 71,
+      "N_h_eligible": 71,
+      "n_h_sampled": 9,
+      "inclusion_probability": 0.12676
+    }
+  },
+  "file_g_test_strata": {
+    "business_operations": {
+      "N_h_before_filters": 37,
+      "N_h_eligible": 37,
+      "n_h_sampled": 5,
+      "inclusion_probability": 0.13514
+    },
+    "capital_structure": {
+      "N_h_before_filters": 19,
+      "N_h_eligible": 19,
+      "n_h_sampled": 4,
+      "inclusion_probability": 0.21053
+    },
+    "company_information": {
+      "N_h_before_filters": 43,
+      "N_h_eligible": 43,
+      "n_h_sampled": 5,
+      "inclusion_probability": 0.11628
+    },
+    "declarations": {
+      "N_h_before_filters": 1,
+      "N_h_eligible": 1,
+      "n_h_sampled": 1,
+      "inclusion_probability": 1.0
+    },
+    "disclosures_and_definitions": {
+      "N_h_before_filters": 13,
+      "N_h_eligible": 13,
+      "n_h_sampled": 3,
+      "inclusion_probability": 0.23077
+    },
+    "financial_information": {
+      "N_h_before_filters": 78,
+      "N_h_eligible": 78,
+      "n_h_sampled": 9,
+      "inclusion_probability": 0.11538
+    },
+    "financial_statements": {
+      "N_h_before_filters": 145,
+      "N_h_eligible": 145,
+      "n_h_sampled": 14,
+      "inclusion_probability": 0.09655
+    },
+    "industry_information": {
+      "N_h_before_filters": 23,
+      "N_h_eligible": 23,
+      "n_h_sampled": 4,
+      "inclusion_probability": 0.17391
+    },
+    "ipo_details": {
+      "N_h_before_filters": 147,
+      "N_h_eligible": 145,
+      "n_h_sampled": 14,
+      "inclusion_probability": 0.09655
+    },
+    "legal_and_regulatory": {
+      "N_h_before_filters": 143,
+      "N_h_eligible": 139,
+      "n_h_sampled": 14,
+      "inclusion_probability": 0.10072
+    },
+    "litigation": {
+      "N_h_before_filters": 12,
+      "N_h_eligible": 12,
+      "n_h_sampled": 3,
+      "inclusion_probability": 0.25
+    },
+    "objects_of_issue": {
+      "N_h_before_filters": 17,
+      "N_h_eligible": 17,
+      "n_h_sampled": 4,
+      "inclusion_probability": 0.23529
+    },
+    "other": {
+      "N_h_before_filters": 0,
+      "N_h_eligible": 0,
+      "n_h_sampled": 0,
+      "inclusion_probability": 0.0
+    },
+    "promoters_and_management": {
+      "N_h_before_filters": 60,
+      "N_h_eligible": 60,
+      "n_h_sampled": 7,
+      "inclusion_probability": 0.11667
+    },
+    "qualitative_factors": {
+      "N_h_before_filters": 1,
+      "N_h_eligible": 1,
+      "n_h_sampled": 1,
+      "inclusion_probability": 1.0
+    },
+    "related_party_transactions": {
+      "N_h_before_filters": 8,
+      "N_h_eligible": 8,
+      "n_h_sampled": 3,
+      "inclusion_probability": 0.375
+    },
+    "risk_factors": {
+      "N_h_before_filters": 83,
+      "N_h_eligible": 83,
+      "n_h_sampled": 9,
+      "inclusion_probability": 0.10843
+    }
+  },
+  "file_f_train_rule_strata": {
+    "A01": {
+      "N_h_eligible": 4,
+      "n_h_sampled": 0,
+      "inclusion_probability": 0.0
+    },
+    "A02": {
+      "N_h_eligible": 4,
+      "n_h_sampled": 0,
+      "inclusion_probability": 0.0
+    },
+    "A03": {
+      "N_h_eligible": 1,
+      "n_h_sampled": 0,
+      "inclusion_probability": 0.0
+    },
+    "A04": {
+      "N_h_eligible": 1,
+      "n_h_sampled": 0,
+      "inclusion_probability": 0.0
+    },
+    "A05": {
+      "N_h_eligible": 1,
+      "n_h_sampled": 0,
+      "inclusion_probability": 0.0
+    },
+    "A06": {
+      "N_h_eligible": 4,
+      "n_h_sampled": 0,
+      "inclusion_probability": 0.0
+    },
+    "A07": {
+      "N_h_eligible": 2,
+      "n_h_sampled": 0,
+      "inclusion_probability": 0.0
+    },
+    "C01": {
+      "N_h_eligible": 56,
+      "n_h_sampled": 4,
+      "inclusion_probability": 0.07143
+    },
+    "C02": {
+      "N_h_eligible": 333,
+      "n_h_sampled": 4,
+      "inclusion_probability": 0.01201
+    },
+    "C03": {
+      "N_h_eligible": 426,
+      "n_h_sampled": 4,
+      "inclusion_probability": 0.00939
+    },
+    "C04": {
+      "N_h_eligible": 16,
+      "n_h_sampled": 0,
+      "inclusion_probability": 0.0
+    },
+    "C05": {
+      "N_h_eligible": 98,
+      "n_h_sampled": 4,
+      "inclusion_probability": 0.04082
+    },
+    "C06": {
+      "N_h_eligible": 10,
+      "n_h_sampled": 0,
+      "inclusion_probability": 0.0
+    },
+    "C07": {
+      "N_h_eligible": 137,
+      "n_h_sampled": 4,
+      "inclusion_probability": 0.0292
+    },
+    "C08": {
+      "N_h_eligible": 65,
+      "n_h_sampled": 4,
+      "inclusion_probability": 0.06154
+    },
+    "C09": {
+      "N_h_eligible": 42,
+      "n_h_sampled": 2,
+      "inclusion_probability": 0.04762
+    },
+    "C10": {
+      "N_h_eligible": 202,
+      "n_h_sampled": 4,
+      "inclusion_probability": 0.0198
+    },
+    "C11": {
+      "N_h_eligible": 293,
+      "n_h_sampled": 4,
+      "inclusion_probability": 0.01365
+    },
+    "C12": {
+      "N_h_eligible": 214,
+      "n_h_sampled": 4,
+      "inclusion_probability": 0.01869
+    },
+    "C13": {
+      "N_h_eligible": 125,
+      "n_h_sampled": 4,
+      "inclusion_probability": 0.032
+    },
+    "C14": {
+      "N_h_eligible": 201,
+      "n_h_sampled": 4,
+      "inclusion_probability": 0.0199
+    },
+    "C15": {
+      "N_h_eligible": 81,
+      "n_h_sampled": 4,
+      "inclusion_probability": 0.04938
+    },
+    "C16": {
+      "N_h_eligible": 47,
+      "n_h_sampled": 2,
+      "inclusion_probability": 0.04255
+    },
+    "C17": {
+      "N_h_eligible": 32,
+      "n_h_sampled": 2,
+      "inclusion_probability": 0.0625
+    },
+    "C18": {
+      "N_h_eligible": 4,
+      "n_h_sampled": 0,
+      "inclusion_probability": 0.0
+    },
+    "C19": {
+      "N_h_eligible": 301,
+      "n_h_sampled": 4,
+      "inclusion_probability": 0.01329
+    },
+    "C20": {
+      "N_h_eligible": 454,
+      "n_h_sampled": 4,
+      "inclusion_probability": 0.00881
+    },
+    "C21": {
+      "N_h_eligible": 112,
+      "n_h_sampled": 4,
+      "inclusion_probability": 0.03571
+    },
+    "C22": {
+      "N_h_eligible": 229,
+      "n_h_sampled": 4,
+      "inclusion_probability": 0.01747
+    },
+    "C23": {
+      "N_h_eligible": 101,
+      "n_h_sampled": 4,
+      "inclusion_probability": 0.0396
+    },
+    "C24": {
+      "N_h_eligible": 13,
+      "n_h_sampled": 0,
+      "inclusion_probability": 0.0
+    },
+    "G01": {
+      "N_h_eligible": 2,
+      "n_h_sampled": 0,
+      "inclusion_probability": 0.0
+    },
+    "G02": {
+      "N_h_eligible": 7,
+      "n_h_sampled": 0,
+      "inclusion_probability": 0.0
+    },
+    "G03": {
+      "N_h_eligible": 101,
+      "n_h_sampled": 4,
+      "inclusion_probability": 0.0396
+    },
+    "K01": {
+      "N_h_eligible": 6,
+      "n_h_sampled": 0,
+      "inclusion_probability": 0.0
+    },
+    "K02": {
+      "N_h_eligible": 4,
+      "n_h_sampled": 0,
+      "inclusion_probability": 0.0
+    },
+    "K03": {
+      "N_h_eligible": 4,
+      "n_h_sampled": 0,
+      "inclusion_probability": 0.0
+    },
+    "K04": {
+      "N_h_eligible": 4,
+      "n_h_sampled": 0,
+      "inclusion_probability": 0.0
+    },
+    "K05": {
+      "N_h_eligible": 11,
+      "n_h_sampled": 0,
+      "inclusion_probability": 0.0
+    }
+  },
+  "sampled_example_ids": {
+    "file_e": [
+      "century-L2-016-019",
+      "century-L2-023-049",
+      "century-L2-035-007",
+      "century-L2-011-021",
+      "century-L2-026-023",
+      "century-L2-034-019",
+      "century-L2-014-001",
+      "century-L2-011-024",
+      "century-L2-011-015",
+      "century-L2-021-006",
+      "century-L2-017-016",
+      "century-L2-010-006",
+      "century-L2-034-062",
+      "century-L2-019-013",
+      "century-L2-023-023",
+      "century-L2-013-013",
+      "century-L2-012-005",
+      "century-L2-026-014",
+      "century-L2-026-037",
+      "century-L2-031-025",
+      "century-L2-017-015",
+      "century-L2-014-002",
+      "century-L2-008-001",
+      "century-L2-023-054",
+      "century-L2-013-009",
+      "century-L2-023-106",
+      "century-L2-017-018",
+      "century-L2-005-001",
+      "century-L2-010-007",
+      "century-L2-032-031",
+      "century-L2-023-014",
+      "century-L2-038-001",
+      "century-L2-013-006",
+      "century-L2-029-009",
+      "century-L2-012-003",
+      "century-L2-028-042",
+      "century-L2-006-024",
+      "century-L2-020-031",
+      "century-L2-011-031",
+      "century-L2-031-036",
+      "century-L2-006-076",
+      "century-L2-028-006",
+      "century-L2-031-024",
+      "century-L2-026-003",
+      "century-L2-019-001",
+      "century-L2-019-012",
+      "century-L2-016-013",
+      "century-L2-032-011",
+      "century-L2-034-013",
+      "century-L2-021-007",
+      "century-L2-016-011",
+      "century-L2-021-016",
+      "century-L2-020-017",
+      "century-L2-020-003",
+      "century-L2-006-014",
+      "century-L2-006-056",
+      "century-L2-004-002",
+      "century-L2-028-035",
+      "century-L2-032-023",
+      "century-L2-010-008",
+      "century-L2-017-008",
+      "century-L2-023-060",
+      "century-L2-011-003",
+      "century-L2-033-003",
+      "century-L2-016-004",
+      "century-L2-006-064",
+      "century-L2-034-039",
+      "century-L2-023-016",
+      "century-L2-021-002",
+      "century-L2-017-002",
+      "century-L2-006-008",
+      "century-L2-023-022",
+      "century-L2-037-002",
+      "century-L2-031-009",
+      "century-L2-034-066",
+      "century-L2-033-004",
+      "century-L2-012-014",
+      "century-L2-013-015",
+      "century-L2-006-033",
+      "century-L2-025-007",
+      "century-L2-020-044",
+      "century-L2-026-012",
+      "century-L2-030-009",
+      "century-L2-012-004",
+      "century-L2-019-004",
+      "century-L2-029-003",
+      "century-L2-031-023",
+      "century-L2-006-022",
+      "century-L2-023-098",
+      "century-L2-034-018",
+      "century-L2-034-072",
+      "century-L2-006-046",
+      "century-L2-032-022",
+      "century-L2-028-014+1",
+      "century-L2-023-031",
+      "century-L2-031-008",
+      "century-L2-028-039",
+      "century-L2-006-070",
+      "century-L2-023-040",
+      "century-L2-003-004"
+    ],
+    "file_f": [
+      "axiom_gas-L2-030-038",
+      "maxwell_engineering-L2-006-045",
+      "photonics_watertech-L2-010-020",
+      "quanto_agroworld-L2-037-019",
+      "axiom_gas-L2-012-028",
+      "photonics_watertech-L2-022-003",
+      "photonics_watertech-L2-026-052",
+      "quanto_agroworld-L2-024-020",
+      "axiom_gas-L2-029-024",
+      "quanto_agroworld-L2-022-011",
+      "maxwell_engineering-L2-031-023",
+      "quanto_agroworld-L2-035-039",
+      "photonics_watertech-L2-004-009",
+      "axiom_gas-L2-015-006",
+      "axiom_gas-L2-021-025",
+      "quanto_agroworld-L2-020-016",
+      "maxwell_engineering-L2-019-016",
+      "axiom_gas-L2-014-035",
+      "photonics_watertech-L2-012-023",
+      "maxwell_engineering-L2-017-104+2",
+      "maxwell_engineering-L2-013-008",
+      "photonics_watertech-L2-024-128",
+      "maxwell_engineering-L2-036-056",
+      "maxwell_engineering-L2-006-056",
+      "axiom_gas-L2-030-008",
+      "photonics_watertech-L2-026-017",
+      "quanto_agroworld-L2-003-005",
+      "quanto_agroworld-L2-022-036",
+      "axiom_gas-L2-005-002",
+      "quanto_agroworld-L2-018-007",
+      "axiom_gas-L2-025-036",
+      "axiom_gas-L2-022-006",
+      "maxwell_engineering-L2-017-036",
+      "photonics_watertech-L2-021-002",
+      "quanto_agroworld-L2-015-004",
+      "maxwell_engineering-L2-014-010",
+      "maxwell_engineering-L2-036-032",
+      "photonics_watertech-L2-016-018",
+      "maxwell_engineering-L2-018-030",
+      "axiom_gas-L2-021-026",
+      "axiom_gas-L2-032-023",
+      "maxwell_engineering-L2-018-047+1",
+      "photonics_watertech-L2-012-008",
+      "quanto_agroworld-L2-037-017",
+      "axiom_gas-L2-014-011",
+      "quanto_agroworld-L2-014-011",
+      "photonics_watertech-L2-029-024",
+      "quanto_agroworld-L2-025-013",
+      "photonics_watertech-L2-024-063",
+      "maxwell_engineering-L2-036-046",
+      "quanto_agroworld-L2-032-005",
+      "quanto_agroworld-L2-031-067",
+      "maxwell_engineering-L2-031-002+1",
+      "maxwell_engineering-L2-011-035",
+      "maxwell_engineering-L2-018-013",
+      "axiom_gas-L2-013-012+1",
+      "maxwell_engineering-L2-006-072",
+      "axiom_gas-L2-014-009+1",
+      "photonics_watertech-L2-013-013",
+      "maxwell_engineering-L2-036-009",
+      "photonics_watertech-L2-031-012",
+      "axiom_gas-L2-004-002",
+      "photonics_watertech-L2-010-003",
+      "quanto_agroworld-L2-019-076",
+      "maxwell_engineering-L2-006-001",
+      "axiom_gas-L2-020-014",
+      "quanto_agroworld-L2-019-040",
+      "maxwell_engineering-L2-011-033",
+      "maxwell_engineering-L2-021-011",
+      "axiom_gas-L2-025-102",
+      "maxwell_engineering-L2-014-014",
+      "axiom_gas-L2-018-004",
+      "quanto_agroworld-L2-034-051",
+      "quanto_agroworld-L2-017-008",
+      "axiom_gas-L2-035-024",
+      "maxwell_engineering-L2-018-064",
+      "quanto_agroworld-L2-019-032",
+      "maxwell_engineering-L2-020-046"
+    ],
+    "file_g": [
+      "ideas_electricals-L2-006-034",
+      "ideas_electricals-L2-023-096",
+      "ideas_electricals-L2-026-023",
+      "ideas_electricals-L2-017-019",
+      "ideas_electricals-L2-033-003",
+      "ideas_electricals-L2-018-054",
+      "ideas_electricals-L2-006-069",
+      "ideas_electricals-L2-016-004",
+      "ideas_electricals-L2-011-022",
+      "ideas_electricals-L2-026-034",
+      "ideas_electricals-L2-010-007",
+      "ideas_electricals-L2-006-018",
+      "ideas_electricals-L2-026-049",
+      "ideas_electricals-L2-021-017",
+      "ideas_electricals-L2-031-002+1",
+      "ideas_electricals-L2-006-076",
+      "ideas_electricals-L2-023-127",
+      "ideas_electricals-L2-031-019",
+      "ideas_electricals-L2-019-013",
+      "ideas_electricals-L2-016-019",
+      "ideas_electricals-L2-003-004",
+      "ideas_electricals-L2-021-005",
+      "ideas_electricals-L2-006-083",
+      "ideas_electricals-L2-023-061",
+      "ideas_electricals-L2-023-099",
+      "ideas_electricals-L2-026-037",
+      "ideas_electricals-L2-023-078",
+      "ideas_electricals-L2-021-021",
+      "ideas_electricals-L2-023-094",
+      "ideas_electricals-L2-006-072",
+      "ideas_electricals-L2-025-011",
+      "ideas_electricals-L2-017-015",
+      "ideas_electricals-L2-016-014",
+      "ideas_electricals-L2-032-008",
+      "ideas_electricals-L2-012-005",
+      "ideas_electricals-L2-013-014",
+      "ideas_electricals-L2-017-016+1",
+      "ideas_electricals-L2-004-002",
+      "ideas_electricals-L2-034-041",
+      "ideas_electricals-L2-032-017",
+      "ideas_electricals-L2-012-003",
+      "ideas_electricals-L2-021-020",
+      "ideas_electricals-L2-023-029",
+      "ideas_electricals-L2-006-055",
+      "ideas_electricals-L2-032-031",
+      "ideas_electricals-L2-037-001",
+      "ideas_electricals-L2-006-032",
+      "ideas_electricals-L2-021-019",
+      "ideas_electricals-L2-011-003",
+      "ideas_electricals-L2-020-036",
+      "ideas_electricals-L2-008-001",
+      "ideas_electricals-L2-019-001",
+      "ideas_electricals-L2-019-012",
+      "ideas_electricals-L2-023-013",
+      "ideas_electricals-L2-018-050+1",
+      "ideas_electricals-L2-031-010",
+      "ideas_electricals-L2-032-018",
+      "ideas_electricals-L2-010-006",
+      "ideas_electricals-L2-023-147",
+      "ideas_electricals-L2-031-022",
+      "ideas_electricals-L2-006-019",
+      "ideas_electricals-L2-013-002",
+      "ideas_electricals-L2-013-006",
+      "ideas_electricals-L2-026-015",
+      "ideas_electricals-L2-018-013",
+      "ideas_electricals-L2-023-105",
+      "ideas_electricals-L2-017-008",
+      "ideas_electricals-L2-034-017",
+      "ideas_electricals-L2-014-002",
+      "ideas_electricals-L2-034-021",
+      "ideas_electricals-L2-023-074",
+      "ideas_electricals-L2-030-004",
+      "ideas_electricals-L2-016-003",
+      "ideas_electricals-L2-023-027",
+      "ideas_electricals-L2-031-043",
+      "ideas_electricals-L2-010-004",
+      "ideas_electricals-L2-017-002",
+      "ideas_electricals-L2-018-071",
+      "ideas_electricals-L2-023-025+1",
+      "ideas_electricals-L2-018-061+1",
+      "ideas_electricals-L2-018-038",
+      "ideas_electricals-L2-020-019",
+      "ideas_electricals-L2-011-019",
+      "ideas_electricals-L2-011-013",
+      "ideas_electricals-L2-012-014",
+      "ideas_electricals-L2-013-012",
+      "ideas_electricals-L2-011-027",
+      "ideas_electricals-L2-026-008",
+      "ideas_electricals-L2-020-012",
+      "ideas_electricals-L2-026-033",
+      "ideas_electricals-L2-038-001",
+      "ideas_electricals-L2-012-004",
+      "ideas_electricals-L2-019-004",
+      "ideas_electricals-L2-018-070",
+      "ideas_electricals-L2-018-040",
+      "ideas_electricals-L2-004-004",
+      "ideas_electricals-L2-023-043",
+      "ideas_electricals-L2-034-016",
+      "ideas_electricals-L2-033-002",
+      "ideas_electricals-L2-028-003"
+    ],
+    "file_h": [
+      "century-L2-016-019",
+      "century-L2-011-021",
+      "century-L2-026-023",
+      "century-L2-010-006",
+      "century-L2-019-013",
+      "century-L2-023-023",
+      "century-L2-026-014",
+      "century-L2-023-106",
+      "century-L2-005-001",
+      "century-L2-010-007",
+      "century-L2-032-031",
+      "century-L2-038-001",
+      "century-L2-028-042",
+      "century-L2-020-003",
+      "century-L2-006-014",
+      "century-L2-028-035",
+      "century-L2-016-004",
+      "century-L2-017-002",
+      "century-L2-023-022",
+      "century-L2-033-004",
+      "century-L2-013-015",
+      "century-L2-026-012",
+      "century-L2-019-004",
+      "century-L2-031-023",
+      "century-L2-023-098",
+      "century-L2-034-018",
+      "century-L2-028-014+1",
+      "century-L2-023-031",
+      "century-L2-031-008",
+      "century-L2-006-070"
+    ]
+  }
+}

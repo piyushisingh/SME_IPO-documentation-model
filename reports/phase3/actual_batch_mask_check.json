@@ -1,0 +1,144 @@
+{
+  "timestamp_iso": "2026-11-21T15:24:44",
+  "question_i_unmasked_span_content": "Label tokens followed by <end_of_turn> (token 106) and newline (token 107). TRL's conversational template naturally includes turn separator \\n.",
+  "question_ii_extra_tokens": {
+    "token_1_eos_appended": false,
+    "extra_bos_appended": false,
+    "trailing_newline_107_present": true
+  },
+  "question_iii_bos_count": 1,
+  "exact_unmasked_structure": "{label_tokens} + [106, 107] (<end_of_turn>\\n)",
+  "minimal_fix_needed": false,
+  "explanation": "TRL does NOT append an extra <eos> (id 1) token. It includes token 106 (<end_of_turn>) followed by token 107 (\\n) matching the Gemma-3 chat template turn boundary. Audit assertions from audit_dataset.py are fully confirmed.",
+  "examples": [
+    {
+      "example_index": 0,
+      "total_tokens": 270,
+      "first_6_tokens": [
+        2,
+        105,
+        2364,
+        107,
+        4335,
+        1891
+      ],
+      "bos_count": 1,
+      "last_6_tokens": [
+        236779,
+        624,
+        236779,
+        90906,
+        106,
+        107
+      ],
+      "last_6_labels": [
+        236779,
+        624,
+        236779,
+        90906,
+        106,
+        107
+      ],
+      "unmasked_indices_count": 8,
+      "unmasked_token_ids": [
+        2763,
+        56785,
+        236779,
+        624,
+        236779,
+        90906,
+        106,
+        107
+      ],
+      "unmasked_decoded": "disclosures_and_definitions<end_of_turn>\n",
+      "unmasked_ends_with_end_of_turn_106": true,
+      "token_1_eos_present": false
+    },
+    {
+      "example_index": 1,
+      "total_tokens": 50,
+      "first_6_tokens": [
+        2,
+        105,
+        2364,
+        107,
+        4335,
+        1891
+      ],
+      "bos_count": 1,
+      "last_6_tokens": [
+        236779,
+        624,
+        236779,
+        90906,
+        106,
+        107
+      ],
+      "last_6_labels": [
+        236779,
+        624,
+        236779,
+        90906,
+        106,
+        107
+      ],
+      "unmasked_indices_count": 8,
+      "unmasked_token_ids": [
+        2763,
+        56785,
+        236779,
+        624,
+        236779,
+        90906,
+        106,
+        107
+      ],
+      "unmasked_decoded": "disclosures_and_definitions<end_of_turn>\n",
+      "unmasked_ends_with_end_of_turn_106": true,
+      "token_1_eos_present": false
+    },
+    {
+      "example_index": 2,
+      "total_tokens": 176,
+      "first_6_tokens": [
+        2,
+        105,
+        2364,
+        107,
+        4335,
+        1891
+      ],
+      "bos_count": 1,
+      "last_6_tokens": [
+        236779,
+        624,
+        236779,
+        90906,
+        106,
+        107
+      ],
+      "last_6_labels": [
+        236779,
+        624,
+        236779,
+        90906,
+        106,
+        107
+      ],
+      "unmasked_indices_count": 8,
+      "unmasked_token_ids": [
+        2763,
+        56785,
+        236779,
+        624,
+        236779,
+        90906,
+        106,
+        107
+      ],
+      "unmasked_decoded": "disclosures_and_definitions<end_of_turn>\n",
+      "unmasked_ends_with_end_of_turn_106": true,
+      "token_1_eos_present": false
+    }
+  ]
+}

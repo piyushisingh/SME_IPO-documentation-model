@@ -1,0 +1,2496 @@
+{
+  "VAL-001": {
+    "example_id": "century-L2-016-019",
+    "assigned_label": "industry_information",
+    "rule_id": "C10",
+    "parent_chapter": "INDUSTRY OVERVIEW",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-002": {
+    "example_id": "century-L2-023-049",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL INFORMATION",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-003": {
+    "example_id": "century-L2-035-007",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C04",
+    "parent_chapter": "RESTRICTIONS ON FOREIGN OWNERSHIP OF INDIAN SECURITIES",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-004": {
+    "example_id": "century-L2-011-021",
+    "assigned_label": "ipo_details",
+    "rule_id": "G03",
+    "parent_chapter": "GENERAL INFORMATION",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-005": {
+    "example_id": "century-L2-026-023",
+    "assigned_label": "financial_information",
+    "rule_id": "C19",
+    "parent_chapter": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITIONS AND RESULTS OF OPERATIONS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-006": {
+    "example_id": "century-L2-034-019",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "ISSUE PROCEDURE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-007": {
+    "example_id": "century-L2-014-001",
+    "assigned_label": "ipo_details",
+    "rule_id": "C08",
+    "parent_chapter": "BASIS FOR ISSUE PRICE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-008": {
+    "example_id": "century-L2-011-024",
+    "assigned_label": "ipo_details",
+    "rule_id": "G03",
+    "parent_chapter": "GENERAL INFORMATION",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-009": {
+    "example_id": "century-L2-011-015",
+    "assigned_label": "ipo_details",
+    "rule_id": "G03",
+    "parent_chapter": "GENERAL INFORMATION",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-010": {
+    "example_id": "century-L2-021-006",
+    "assigned_label": "promoters_and_management",
+    "rule_id": "C15",
+    "parent_chapter": "OUR PROMOTERS & PROMOTER GROUP",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-011": {
+    "example_id": "century-L2-017-016",
+    "assigned_label": "business_operations",
+    "rule_id": "C11",
+    "parent_chapter": "OUR BUSINESS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-012": {
+    "example_id": "century-L2-010-006",
+    "assigned_label": "related_party_transactions",
+    "rule_id": "C17",
+    "parent_chapter": "SUMMARY OF RELATED PARTY TRANSACTIONS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-013": {
+    "example_id": "century-L2-034-062",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "ISSUE PROCEDURE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-014": {
+    "example_id": "century-L2-019-013",
+    "assigned_label": "company_information",
+    "rule_id": "C13",
+    "parent_chapter": "HISTORY AND CORPORATE STRUCTURE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-015": {
+    "example_id": "century-L2-023-023",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL INFORMATION",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-016": {
+    "example_id": "century-L2-013-013",
+    "assigned_label": "objects_of_issue",
+    "rule_id": "C07",
+    "parent_chapter": "OBJECTS OF THE ISSUE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-017": {
+    "example_id": "century-L2-012-005",
+    "assigned_label": "capital_structure",
+    "rule_id": "C05",
+    "parent_chapter": "CAPITAL STRUCTURE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-018": {
+    "example_id": "century-L2-026-014",
+    "assigned_label": "financial_information",
+    "rule_id": "C19",
+    "parent_chapter": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITIONS AND RESULTS OF OPERATIONS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-019": {
+    "example_id": "century-L2-026-037",
+    "assigned_label": "financial_information",
+    "rule_id": "C19",
+    "parent_chapter": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITIONS AND RESULTS OF OPERATIONS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-020": {
+    "example_id": "century-L2-031-025",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C22",
+    "parent_chapter": "OTHER REGULATORY AND STATUTORY DISCLOSURES",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-021": {
+    "example_id": "century-L2-017-015",
+    "assigned_label": "business_operations",
+    "rule_id": "C11",
+    "parent_chapter": "OUR BUSINESS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-022": {
+    "example_id": "century-L2-014-002",
+    "assigned_label": "qualitative_factors",
+    "rule_id": "K02",
+    "parent_chapter": "BASIS FOR ISSUE PRICE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-023": {
+    "example_id": "century-L2-008-001",
+    "assigned_label": "financial_information",
+    "rule_id": "C19",
+    "parent_chapter": "SUMMARY OF OUR FINANCIAL STATEMENTS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-024": {
+    "example_id": "century-L2-023-054",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL INFORMATION",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-025": {
+    "example_id": "century-L2-013-009",
+    "assigned_label": "objects_of_issue",
+    "rule_id": "C07",
+    "parent_chapter": "OBJECTS OF THE ISSUE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-026": {
+    "example_id": "century-L2-023-106",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL INFORMATION",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-027": {
+    "example_id": "century-L2-017-018",
+    "assigned_label": "business_operations",
+    "rule_id": "C11",
+    "parent_chapter": "OUR BUSINESS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-028": {
+    "example_id": "century-L2-005-001",
+    "assigned_label": "disclosures_and_definitions",
+    "rule_id": "C01",
+    "parent_chapter": "FORWARD LOOKING STATEMENTS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-029": {
+    "example_id": "century-L2-010-007",
+    "assigned_label": "related_party_transactions",
+    "rule_id": "C17",
+    "parent_chapter": "SUMMARY OF RELATED PARTY TRANSACTIONS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-030": {
+    "example_id": "century-L2-032-031",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "TERMS OF THE ISSUE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-031": {
+    "example_id": "century-L2-023-014",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL INFORMATION",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-032": {
+    "example_id": "century-L2-038-001",
+    "assigned_label": "declarations",
+    "rule_id": "C24",
+    "parent_chapter": "DECLARATION",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-033": {
+    "example_id": "century-L2-013-006",
+    "assigned_label": "objects_of_issue",
+    "rule_id": "C07",
+    "parent_chapter": "OBJECTS OF THE ISSUE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-034": {
+    "example_id": "century-L2-029-009",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C22",
+    "parent_chapter": "GOVERNMENT AND OTHER APPROVALS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-035": {
+    "example_id": "century-L2-012-003",
+    "assigned_label": "capital_structure",
+    "rule_id": "C05",
+    "parent_chapter": "CAPITAL STRUCTURE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-036": {
+    "example_id": "century-L2-028-042",
+    "assigned_label": "litigation",
+    "rule_id": "C21",
+    "parent_chapter": "OUTSTANDING LITIGATIONS AND MATERIAL DEVELOPMENTS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-037": {
+    "example_id": "century-L2-006-024",
+    "assigned_label": "risk_factors",
+    "rule_id": "C02",
+    "parent_chapter": "II. RISK FACTORS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-038": {
+    "example_id": "century-L2-020-031",
+    "assigned_label": "promoters_and_management",
+    "rule_id": "C14",
+    "parent_chapter": "OUR MANAGEMENT",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-039": {
+    "example_id": "century-L2-011-031",
+    "assigned_label": "ipo_details",
+    "rule_id": "G03",
+    "parent_chapter": "GENERAL INFORMATION",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-040": {
+    "example_id": "century-L2-031-036",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C22",
+    "parent_chapter": "OTHER REGULATORY AND STATUTORY DISCLOSURES",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-041": {
+    "example_id": "century-L2-006-076",
+    "assigned_label": "risk_factors",
+    "rule_id": "C02",
+    "parent_chapter": "II. RISK FACTORS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-042": {
+    "example_id": "century-L2-028-006",
+    "assigned_label": "litigation",
+    "rule_id": "C21",
+    "parent_chapter": "OUTSTANDING LITIGATIONS AND MATERIAL DEVELOPMENTS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-043": {
+    "example_id": "century-L2-031-024",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C22",
+    "parent_chapter": "OTHER REGULATORY AND STATUTORY DISCLOSURES",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-044": {
+    "example_id": "century-L2-026-003",
+    "assigned_label": "financial_information",
+    "rule_id": "C19",
+    "parent_chapter": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITIONS AND RESULTS OF OPERATIONS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-045": {
+    "example_id": "century-L2-019-001",
+    "assigned_label": "company_information",
+    "rule_id": "C13",
+    "parent_chapter": "HISTORY AND CORPORATE STRUCTURE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-046": {
+    "example_id": "century-L2-019-012",
+    "assigned_label": "company_information",
+    "rule_id": "C13",
+    "parent_chapter": "HISTORY AND CORPORATE STRUCTURE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-047": {
+    "example_id": "century-L2-016-013",
+    "assigned_label": "industry_information",
+    "rule_id": "C10",
+    "parent_chapter": "INDUSTRY OVERVIEW",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-048": {
+    "example_id": "century-L2-032-011",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "TERMS OF THE ISSUE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-049": {
+    "example_id": "century-L2-034-013",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "ISSUE PROCEDURE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-050": {
+    "example_id": "century-L2-021-007",
+    "assigned_label": "promoters_and_management",
+    "rule_id": "C15",
+    "parent_chapter": "OUR PROMOTERS & PROMOTER GROUP",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-051": {
+    "example_id": "century-L2-016-011",
+    "assigned_label": "industry_information",
+    "rule_id": "C10",
+    "parent_chapter": "INDUSTRY OVERVIEW",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-052": {
+    "example_id": "century-L2-021-016",
+    "assigned_label": "promoters_and_management",
+    "rule_id": "C15",
+    "parent_chapter": "OUR PROMOTERS & PROMOTER GROUP",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-053": {
+    "example_id": "century-L2-020-017",
+    "assigned_label": "promoters_and_management",
+    "rule_id": "C14",
+    "parent_chapter": "OUR MANAGEMENT",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-054": {
+    "example_id": "century-L2-020-003",
+    "assigned_label": "promoters_and_management",
+    "rule_id": "C14",
+    "parent_chapter": "OUR MANAGEMENT",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-055": {
+    "example_id": "century-L2-006-014",
+    "assigned_label": "risk_factors",
+    "rule_id": "C02",
+    "parent_chapter": "II. RISK FACTORS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-056": {
+    "example_id": "century-L2-006-056",
+    "assigned_label": "risk_factors",
+    "rule_id": "C02",
+    "parent_chapter": "II. RISK FACTORS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-057": {
+    "example_id": "century-L2-004-002",
+    "assigned_label": "disclosures_and_definitions",
+    "rule_id": "C01",
+    "parent_chapter": "CERTAIN CONVENTIONS, USE OF FINANCIAL INFORMATION AND MARKET DATA AND CURRENCY OF FINANCIAL PRESENTATION",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-058": {
+    "example_id": "century-L2-028-035",
+    "assigned_label": "litigation",
+    "rule_id": "C21",
+    "parent_chapter": "OUTSTANDING LITIGATIONS AND MATERIAL DEVELOPMENTS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-059": {
+    "example_id": "century-L2-032-023",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "TERMS OF THE ISSUE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-060": {
+    "example_id": "century-L2-010-008",
+    "assigned_label": "related_party_transactions",
+    "rule_id": "C17",
+    "parent_chapter": "SUMMARY OF RELATED PARTY TRANSACTIONS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-061": {
+    "example_id": "century-L2-017-008",
+    "assigned_label": "business_operations",
+    "rule_id": "C11",
+    "parent_chapter": "OUR BUSINESS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-062": {
+    "example_id": "century-L2-023-060",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL INFORMATION",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-063": {
+    "example_id": "century-L2-011-003",
+    "assigned_label": "company_information",
+    "rule_id": "G01",
+    "parent_chapter": "GENERAL INFORMATION",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-064": {
+    "example_id": "century-L2-033-003",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "ISSUE STRUCTURE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-065": {
+    "example_id": "century-L2-016-004",
+    "assigned_label": "industry_information",
+    "rule_id": "C10",
+    "parent_chapter": "INDUSTRY OVERVIEW",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-066": {
+    "example_id": "century-L2-006-064",
+    "assigned_label": "risk_factors",
+    "rule_id": "C02",
+    "parent_chapter": "II. RISK FACTORS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-067": {
+    "example_id": "century-L2-034-039",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "ISSUE PROCEDURE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-068": {
+    "example_id": "century-L2-023-016",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL INFORMATION",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-069": {
+    "example_id": "century-L2-021-002",
+    "assigned_label": "promoters_and_management",
+    "rule_id": "C15",
+    "parent_chapter": "OUR PROMOTERS & PROMOTER GROUP",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-070": {
+    "example_id": "century-L2-017-002",
+    "assigned_label": "business_operations",
+    "rule_id": "C11",
+    "parent_chapter": "OUR BUSINESS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-071": {
+    "example_id": "century-L2-006-008",
+    "assigned_label": "litigation",
+    "rule_id": "K05",
+    "parent_chapter": "II. RISK FACTORS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-072": {
+    "example_id": "century-L2-023-022",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL INFORMATION",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-073": {
+    "example_id": "century-L2-037-002",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C23",
+    "parent_chapter": "MATERIAL CONTRACTS AND DOCUMENTS FOR INSPECTION",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-074": {
+    "example_id": "century-L2-031-009",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C22",
+    "parent_chapter": "OTHER REGULATORY AND STATUTORY DISCLOSURES",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-075": {
+    "example_id": "century-L2-034-066",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "ISSUE PROCEDURE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-076": {
+    "example_id": "century-L2-033-004",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "ISSUE STRUCTURE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-077": {
+    "example_id": "century-L2-012-014",
+    "assigned_label": "capital_structure",
+    "rule_id": "C05",
+    "parent_chapter": "CAPITAL STRUCTURE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-078": {
+    "example_id": "century-L2-013-015",
+    "assigned_label": "objects_of_issue",
+    "rule_id": "C07",
+    "parent_chapter": "OBJECTS OF THE ISSUE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-079": {
+    "example_id": "century-L2-006-033",
+    "assigned_label": "risk_factors",
+    "rule_id": "C02",
+    "parent_chapter": "II. RISK FACTORS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-080": {
+    "example_id": "century-L2-025-007",
+    "assigned_label": "financial_information",
+    "rule_id": "C19",
+    "parent_chapter": "STATEMENT OF FINANCIAL INDEBTEDNESS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-081": {
+    "example_id": "century-L2-020-044",
+    "assigned_label": "promoters_and_management",
+    "rule_id": "C14",
+    "parent_chapter": "OUR MANAGEMENT",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-082": {
+    "example_id": "century-L2-026-012",
+    "assigned_label": "financial_information",
+    "rule_id": "C19",
+    "parent_chapter": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITIONS AND RESULTS OF OPERATIONS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-083": {
+    "example_id": "century-L2-030-009",
+    "assigned_label": "company_information",
+    "rule_id": "C16",
+    "parent_chapter": "OUR GROUP COMPANY",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-084": {
+    "example_id": "century-L2-012-004",
+    "assigned_label": "capital_structure",
+    "rule_id": "C05",
+    "parent_chapter": "CAPITAL STRUCTURE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-085": {
+    "example_id": "century-L2-019-004",
+    "assigned_label": "company_information",
+    "rule_id": "C13",
+    "parent_chapter": "HISTORY AND CORPORATE STRUCTURE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-086": {
+    "example_id": "century-L2-029-003",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C22",
+    "parent_chapter": "GOVERNMENT AND OTHER APPROVALS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-087": {
+    "example_id": "century-L2-031-023",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C22",
+    "parent_chapter": "OTHER REGULATORY AND STATUTORY DISCLOSURES",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-088": {
+    "example_id": "century-L2-006-022",
+    "assigned_label": "risk_factors",
+    "rule_id": "C02",
+    "parent_chapter": "II. RISK FACTORS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-089": {
+    "example_id": "century-L2-023-098",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL INFORMATION",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-090": {
+    "example_id": "century-L2-034-018",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "ISSUE PROCEDURE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-091": {
+    "example_id": "century-L2-034-072",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "ISSUE PROCEDURE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-092": {
+    "example_id": "century-L2-006-046",
+    "assigned_label": "risk_factors",
+    "rule_id": "C02",
+    "parent_chapter": "II. RISK FACTORS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-093": {
+    "example_id": "century-L2-032-022",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "TERMS OF THE ISSUE",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-094": {
+    "example_id": "century-L2-028-014+1",
+    "assigned_label": "litigation",
+    "rule_id": "C21",
+    "parent_chapter": "OUTSTANDING LITIGATIONS AND MATERIAL DEVELOPMENTS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-095": {
+    "example_id": "century-L2-023-031",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL INFORMATION",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-096": {
+    "example_id": "century-L2-031-008",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C22",
+    "parent_chapter": "OTHER REGULATORY AND STATUTORY DISCLOSURES",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-097": {
+    "example_id": "century-L2-028-039",
+    "assigned_label": "litigation",
+    "rule_id": "C21",
+    "parent_chapter": "OUTSTANDING LITIGATIONS AND MATERIAL DEVELOPMENTS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-098": {
+    "example_id": "century-L2-006-070",
+    "assigned_label": "risk_factors",
+    "rule_id": "C02",
+    "parent_chapter": "II. RISK FACTORS",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-099": {
+    "example_id": "century-L2-023-040",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL INFORMATION",
+    "document": "century",
+    "split": "validation"
+  },
+  "VAL-100": {
+    "example_id": "century-L2-003-004",
+    "assigned_label": "disclosures_and_definitions",
+    "rule_id": "C01",
+    "parent_chapter": "DEFINITIONS AND ABBREVIATIONS",
+    "document": "century",
+    "split": "validation"
+  },
+  "RULE-001": {
+    "example_id": "axiom_gas-L2-030-038",
+    "assigned_label": "litigation",
+    "rule_id": "C21",
+    "parent_chapter": "OUTSTANDING LITIGATIONS AND MATERIAL DEVELOPMENTS",
+    "document": "axiom_gas",
+    "split": "train"
+  },
+  "RULE-002": {
+    "example_id": "maxwell_engineering-L2-006-045",
+    "assigned_label": "risk_factors",
+    "rule_id": "C02",
+    "parent_chapter": "SECTION II - RISK FACTORS",
+    "document": "maxwell_engineering",
+    "split": "train"
+  },
+  "RULE-003": {
+    "example_id": "photonics_watertech-L2-010-020",
+    "assigned_label": "related_party_transactions",
+    "rule_id": "C17",
+    "parent_chapter": "SUMMARY OF RELATED PARTY TRANSACTIONS",
+    "document": "photonics_watertech",
+    "split": "train"
+  },
+  "RULE-004": {
+    "example_id": "quanto_agroworld-L2-037-019",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "ISSUE PROCEDURE",
+    "document": "quanto_agroworld",
+    "split": "train"
+  },
+  "RULE-005": {
+    "example_id": "axiom_gas-L2-012-028",
+    "assigned_label": "ipo_details",
+    "rule_id": "G03",
+    "parent_chapter": "GENERAL INFORMATION",
+    "document": "axiom_gas",
+    "split": "train"
+  },
+  "RULE-006": {
+    "example_id": "photonics_watertech-L2-022-003",
+    "assigned_label": "promoters_and_management",
+    "rule_id": "C15",
+    "parent_chapter": "OUR PROMOTERS AND PROMOTERS GROUP",
+    "document": "photonics_watertech",
+    "split": "train"
+  },
+  "RULE-007": {
+    "example_id": "photonics_watertech-L2-026-052",
+    "assigned_label": "financial_information",
+    "rule_id": "C19",
+    "parent_chapter": "MANAGEMENT DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATION -",
+    "document": "photonics_watertech",
+    "split": "train"
+  },
+  "RULE-008": {
+    "example_id": "quanto_agroworld-L2-024-020",
+    "assigned_label": "promoters_and_management",
+    "rule_id": "C15",
+    "parent_chapter": "OUR PROMOTERS AND PROMOTERS GROUP",
+    "document": "quanto_agroworld",
+    "split": "train"
+  },
+  "RULE-009": {
+    "example_id": "axiom_gas-L2-029-024",
+    "assigned_label": "financial_information",
+    "rule_id": "C19",
+    "parent_chapter": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATION",
+    "document": "axiom_gas",
+    "split": "train"
+  },
+  "RULE-010": {
+    "example_id": "quanto_agroworld-L2-022-011",
+    "assigned_label": "company_information",
+    "rule_id": "C13",
+    "parent_chapter": "HISTORY AND CORPORATE STRUCTURE",
+    "document": "quanto_agroworld",
+    "split": "train"
+  },
+  "RULE-011": {
+    "example_id": "maxwell_engineering-L2-031-023",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C22",
+    "parent_chapter": "SECTION X – OTHER REGULATORY AND STATUTORY DISCLOSURES",
+    "document": "maxwell_engineering",
+    "split": "train"
+  },
+  "RULE-012": {
+    "example_id": "quanto_agroworld-L2-035-039",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "TERMS OF THE ISSUE",
+    "document": "quanto_agroworld",
+    "split": "train"
+  },
+  "RULE-013": {
+    "example_id": "photonics_watertech-L2-004-009",
+    "assigned_label": "disclosures_and_definitions",
+    "rule_id": "C01",
+    "parent_chapter": "CERTAIN CONVENTIONS, PRESENTATION OF FINANCIAL INFORMATION, INDUSTRY, MARKET DATA AND CURRENCY OF PRESENTATION",
+    "document": "photonics_watertech",
+    "split": "train"
+  },
+  "RULE-014": {
+    "example_id": "axiom_gas-L2-015-006",
+    "assigned_label": "ipo_details",
+    "rule_id": "C08",
+    "parent_chapter": "BASIS FOR ISSUE PRICE",
+    "document": "axiom_gas",
+    "split": "train"
+  },
+  "RULE-015": {
+    "example_id": "axiom_gas-L2-021-025",
+    "assigned_label": "promoters_and_management",
+    "rule_id": "C14",
+    "parent_chapter": "OUR MANAGEMENT",
+    "document": "axiom_gas",
+    "split": "train"
+  },
+  "RULE-016": {
+    "example_id": "quanto_agroworld-L2-020-016",
+    "assigned_label": "business_operations",
+    "rule_id": "C11",
+    "parent_chapter": "BUSINESS OVERVIEW",
+    "document": "quanto_agroworld",
+    "split": "train"
+  },
+  "RULE-017": {
+    "example_id": "maxwell_engineering-L2-019-016",
+    "assigned_label": "company_information",
+    "rule_id": "C13",
+    "parent_chapter": "HISTORY AND CORPORATE STRUCTURE",
+    "document": "maxwell_engineering",
+    "split": "train"
+  },
+  "RULE-018": {
+    "example_id": "axiom_gas-L2-014-035",
+    "assigned_label": "objects_of_issue",
+    "rule_id": "C07",
+    "parent_chapter": "OBJECTS OF THE ISSUE",
+    "document": "axiom_gas",
+    "split": "train"
+  },
+  "RULE-019": {
+    "example_id": "photonics_watertech-L2-012-023",
+    "assigned_label": "capital_structure",
+    "rule_id": "C05",
+    "parent_chapter": "CAPITAL STRUCTURE",
+    "document": "photonics_watertech",
+    "split": "train"
+  },
+  "RULE-020": {
+    "example_id": "maxwell_engineering-L2-017-104+2",
+    "assigned_label": "business_operations",
+    "rule_id": "C11",
+    "parent_chapter": "BUSINESS OVERVIEW",
+    "document": "maxwell_engineering",
+    "split": "train"
+  },
+  "RULE-021": {
+    "example_id": "maxwell_engineering-L2-013-008",
+    "assigned_label": "objects_of_issue",
+    "rule_id": "C07",
+    "parent_chapter": "OBJECTS OF THE ISSUE",
+    "document": "maxwell_engineering",
+    "split": "train"
+  },
+  "RULE-022": {
+    "example_id": "photonics_watertech-L2-024-128",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL INFORMATION",
+    "document": "photonics_watertech",
+    "split": "train"
+  },
+  "RULE-023": {
+    "example_id": "maxwell_engineering-L2-036-056",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C23",
+    "parent_chapter": "SECTION XII –DESCRIPTION OF EQUITY SHARES AND TERMS OF THE ARTICLES OF ASSOCIATION ..",
+    "document": "maxwell_engineering",
+    "split": "train"
+  },
+  "RULE-024": {
+    "example_id": "maxwell_engineering-L2-006-056",
+    "assigned_label": "risk_factors",
+    "rule_id": "C02",
+    "parent_chapter": "SECTION II - RISK FACTORS",
+    "document": "maxwell_engineering",
+    "split": "train"
+  },
+  "RULE-025": {
+    "example_id": "axiom_gas-L2-030-008",
+    "assigned_label": "litigation",
+    "rule_id": "C21",
+    "parent_chapter": "OUTSTANDING LITIGATIONS AND MATERIAL DEVELOPMENTS",
+    "document": "axiom_gas",
+    "split": "train"
+  },
+  "RULE-026": {
+    "example_id": "photonics_watertech-L2-026-017",
+    "assigned_label": "financial_information",
+    "rule_id": "C19",
+    "parent_chapter": "MANAGEMENT DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATION -",
+    "document": "photonics_watertech",
+    "split": "train"
+  },
+  "RULE-027": {
+    "example_id": "quanto_agroworld-L2-003-005",
+    "assigned_label": "disclosures_and_definitions",
+    "rule_id": "C01",
+    "parent_chapter": "SECTION I – GENERAL DEFINITIONS AND ABBREVIATIONS",
+    "document": "quanto_agroworld",
+    "split": "train"
+  },
+  "RULE-028": {
+    "example_id": "quanto_agroworld-L2-022-036",
+    "assigned_label": "company_information",
+    "rule_id": "C13",
+    "parent_chapter": "HISTORY AND CORPORATE STRUCTURE",
+    "document": "quanto_agroworld",
+    "split": "train"
+  },
+  "RULE-029": {
+    "example_id": "axiom_gas-L2-005-002",
+    "assigned_label": "disclosures_and_definitions",
+    "rule_id": "C01",
+    "parent_chapter": "PRESENTATION OF FINANCIAL, INDUSTRY AND MARKET DATA",
+    "document": "axiom_gas",
+    "split": "train"
+  },
+  "RULE-030": {
+    "example_id": "quanto_agroworld-L2-018-007",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C09",
+    "parent_chapter": "STATEMENT OF POSSIBLE TAX BENEFITS",
+    "document": "quanto_agroworld",
+    "split": "train"
+  },
+  "RULE-031": {
+    "example_id": "axiom_gas-L2-025-036",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED AUDITED FINANCIAL INFORMATION",
+    "document": "axiom_gas",
+    "split": "train"
+  },
+  "RULE-032": {
+    "example_id": "axiom_gas-L2-022-006",
+    "assigned_label": "promoters_and_management",
+    "rule_id": "C15",
+    "parent_chapter": "OUR PROMOTERS AND PROMOTER GROUP",
+    "document": "axiom_gas",
+    "split": "train"
+  },
+  "RULE-033": {
+    "example_id": "maxwell_engineering-L2-017-036",
+    "assigned_label": "business_operations",
+    "rule_id": "C11",
+    "parent_chapter": "BUSINESS OVERVIEW",
+    "document": "maxwell_engineering",
+    "split": "train"
+  },
+  "RULE-034": {
+    "example_id": "photonics_watertech-L2-021-002",
+    "assigned_label": "promoters_and_management",
+    "rule_id": "C14",
+    "parent_chapter": "OUR MANAGEMENT",
+    "document": "photonics_watertech",
+    "split": "train"
+  },
+  "RULE-035": {
+    "example_id": "quanto_agroworld-L2-015-004",
+    "assigned_label": "capital_structure",
+    "rule_id": "C05",
+    "parent_chapter": "CAPITAL STRUCTURE",
+    "document": "quanto_agroworld",
+    "split": "train"
+  },
+  "RULE-036": {
+    "example_id": "maxwell_engineering-L2-014-010",
+    "assigned_label": "ipo_details",
+    "rule_id": "C08",
+    "parent_chapter": "BASIS FOR ISSUE PRICE",
+    "document": "maxwell_engineering",
+    "split": "train"
+  },
+  "RULE-037": {
+    "example_id": "maxwell_engineering-L2-036-032",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C23",
+    "parent_chapter": "SECTION XII –DESCRIPTION OF EQUITY SHARES AND TERMS OF THE ARTICLES OF ASSOCIATION ..",
+    "document": "maxwell_engineering",
+    "split": "train"
+  },
+  "RULE-038": {
+    "example_id": "photonics_watertech-L2-016-018",
+    "assigned_label": "industry_information",
+    "rule_id": "C10",
+    "parent_chapter": "INDUSTRY OVERVIEW",
+    "document": "photonics_watertech",
+    "split": "train"
+  },
+  "RULE-039": {
+    "example_id": "maxwell_engineering-L2-018-030",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C12",
+    "parent_chapter": "KEY INDUSTRY REGULATIONS",
+    "document": "maxwell_engineering",
+    "split": "train"
+  },
+  "RULE-040": {
+    "example_id": "axiom_gas-L2-021-026",
+    "assigned_label": "promoters_and_management",
+    "rule_id": "C14",
+    "parent_chapter": "OUR MANAGEMENT",
+    "document": "axiom_gas",
+    "split": "train"
+  },
+  "RULE-041": {
+    "example_id": "axiom_gas-L2-032-023",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C22",
+    "parent_chapter": "OTHER REGULATORY AND STATUTORY DISCLOSURES",
+    "document": "axiom_gas",
+    "split": "train"
+  },
+  "RULE-042": {
+    "example_id": "maxwell_engineering-L2-018-047+1",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C12",
+    "parent_chapter": "KEY INDUSTRY REGULATIONS",
+    "document": "maxwell_engineering",
+    "split": "train"
+  },
+  "RULE-043": {
+    "example_id": "photonics_watertech-L2-012-008",
+    "assigned_label": "capital_structure",
+    "rule_id": "C05",
+    "parent_chapter": "CAPITAL STRUCTURE",
+    "document": "photonics_watertech",
+    "split": "train"
+  },
+  "RULE-044": {
+    "example_id": "quanto_agroworld-L2-037-017",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "ISSUE PROCEDURE",
+    "document": "quanto_agroworld",
+    "split": "train"
+  },
+  "RULE-045": {
+    "example_id": "axiom_gas-L2-014-011",
+    "assigned_label": "objects_of_issue",
+    "rule_id": "C07",
+    "parent_chapter": "OBJECTS OF THE ISSUE",
+    "document": "axiom_gas",
+    "split": "train"
+  },
+  "RULE-046": {
+    "example_id": "quanto_agroworld-L2-014-011",
+    "assigned_label": "ipo_details",
+    "rule_id": "G03",
+    "parent_chapter": "GENERAL INFORMATION",
+    "document": "quanto_agroworld",
+    "split": "train"
+  },
+  "RULE-047": {
+    "example_id": "photonics_watertech-L2-029-024",
+    "assigned_label": "litigation",
+    "rule_id": "C21",
+    "parent_chapter": "OUTSTANDING LITIGATION AND MATERIAL DEVELOPMENTS",
+    "document": "photonics_watertech",
+    "split": "train"
+  },
+  "RULE-048": {
+    "example_id": "quanto_agroworld-L2-025-013",
+    "assigned_label": "company_information",
+    "rule_id": "C16",
+    "parent_chapter": "OUR SUBSIDIARIES",
+    "document": "quanto_agroworld",
+    "split": "train"
+  },
+  "RULE-049": {
+    "example_id": "photonics_watertech-L2-024-063",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL INFORMATION",
+    "document": "photonics_watertech",
+    "split": "train"
+  },
+  "RULE-050": {
+    "example_id": "maxwell_engineering-L2-036-046",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C23",
+    "parent_chapter": "SECTION XII –DESCRIPTION OF EQUITY SHARES AND TERMS OF THE ARTICLES OF ASSOCIATION ..",
+    "document": "maxwell_engineering",
+    "split": "train"
+  },
+  "RULE-051": {
+    "example_id": "quanto_agroworld-L2-032-005",
+    "assigned_label": "litigation",
+    "rule_id": "C21",
+    "parent_chapter": "OUTSTANDING LITIGATIONS AND MATERIAL DEVELOPMENTS",
+    "document": "quanto_agroworld",
+    "split": "train"
+  },
+  "RULE-052": {
+    "example_id": "quanto_agroworld-L2-031-067",
+    "assigned_label": "financial_information",
+    "rule_id": "C19",
+    "parent_chapter": "MANAGEMENT DISCUSSION AND ANALYSIS OF FINANCIAL POSITION AND RESULTS OF OPERATIONS",
+    "document": "quanto_agroworld",
+    "split": "train"
+  },
+  "RULE-053": {
+    "example_id": "maxwell_engineering-L2-031-002+1",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C22",
+    "parent_chapter": "SECTION X – OTHER REGULATORY AND STATUTORY DISCLOSURES",
+    "document": "maxwell_engineering",
+    "split": "train"
+  },
+  "RULE-054": {
+    "example_id": "maxwell_engineering-L2-011-035",
+    "assigned_label": "ipo_details",
+    "rule_id": "G03",
+    "parent_chapter": "SECTION IV – GENERAL INFORMATION",
+    "document": "maxwell_engineering",
+    "split": "train"
+  },
+  "RULE-055": {
+    "example_id": "maxwell_engineering-L2-018-013",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C12",
+    "parent_chapter": "KEY INDUSTRY REGULATIONS",
+    "document": "maxwell_engineering",
+    "split": "train"
+  },
+  "RULE-056": {
+    "example_id": "axiom_gas-L2-013-012+1",
+    "assigned_label": "capital_structure",
+    "rule_id": "C05",
+    "parent_chapter": "CAPITAL STRUCTURE",
+    "document": "axiom_gas",
+    "split": "train"
+  },
+  "RULE-057": {
+    "example_id": "maxwell_engineering-L2-006-072",
+    "assigned_label": "risk_factors",
+    "rule_id": "C02",
+    "parent_chapter": "SECTION II - RISK FACTORS",
+    "document": "maxwell_engineering",
+    "split": "train"
+  },
+  "RULE-058": {
+    "example_id": "axiom_gas-L2-014-009+1",
+    "assigned_label": "objects_of_issue",
+    "rule_id": "C07",
+    "parent_chapter": "OBJECTS OF THE ISSUE",
+    "document": "axiom_gas",
+    "split": "train"
+  },
+  "RULE-059": {
+    "example_id": "photonics_watertech-L2-013-013",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C09",
+    "parent_chapter": "STATEMENT OF SPECIAL TAX BENEFITS",
+    "document": "photonics_watertech",
+    "split": "train"
+  },
+  "RULE-060": {
+    "example_id": "maxwell_engineering-L2-036-009",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C23",
+    "parent_chapter": "SECTION XII –DESCRIPTION OF EQUITY SHARES AND TERMS OF THE ARTICLES OF ASSOCIATION ..",
+    "document": "maxwell_engineering",
+    "split": "train"
+  },
+  "RULE-061": {
+    "example_id": "photonics_watertech-L2-031-012",
+    "assigned_label": "company_information",
+    "rule_id": "C16",
+    "parent_chapter": "OUR GROUP COMPANIES",
+    "document": "photonics_watertech",
+    "split": "train"
+  },
+  "RULE-062": {
+    "example_id": "axiom_gas-L2-004-002",
+    "assigned_label": "disclosures_and_definitions",
+    "rule_id": "C01",
+    "parent_chapter": "DEFINITIONS AND ABBREVIATIONS",
+    "document": "axiom_gas",
+    "split": "train"
+  },
+  "RULE-063": {
+    "example_id": "photonics_watertech-L2-010-003",
+    "assigned_label": "related_party_transactions",
+    "rule_id": "C17",
+    "parent_chapter": "SUMMARY OF RELATED PARTY TRANSACTIONS",
+    "document": "photonics_watertech",
+    "split": "train"
+  },
+  "RULE-064": {
+    "example_id": "quanto_agroworld-L2-019-076",
+    "assigned_label": "industry_information",
+    "rule_id": "C10",
+    "parent_chapter": "INDUSTRY OVERVIEW",
+    "document": "quanto_agroworld",
+    "split": "train"
+  },
+  "RULE-065": {
+    "example_id": "maxwell_engineering-L2-006-001",
+    "assigned_label": "risk_factors",
+    "rule_id": "C02",
+    "parent_chapter": "SECTION II - RISK FACTORS",
+    "document": "maxwell_engineering",
+    "split": "train"
+  },
+  "RULE-066": {
+    "example_id": "axiom_gas-L2-020-014",
+    "assigned_label": "company_information",
+    "rule_id": "C13",
+    "parent_chapter": "OUR HISTORY AND CERTAIN OTHER CORPORATE MATTERS",
+    "document": "axiom_gas",
+    "split": "train"
+  },
+  "RULE-067": {
+    "example_id": "quanto_agroworld-L2-019-040",
+    "assigned_label": "industry_information",
+    "rule_id": "C10",
+    "parent_chapter": "INDUSTRY OVERVIEW",
+    "document": "quanto_agroworld",
+    "split": "train"
+  },
+  "RULE-068": {
+    "example_id": "maxwell_engineering-L2-011-033",
+    "assigned_label": "ipo_details",
+    "rule_id": "G03",
+    "parent_chapter": "SECTION IV – GENERAL INFORMATION",
+    "document": "maxwell_engineering",
+    "split": "train"
+  },
+  "RULE-069": {
+    "example_id": "maxwell_engineering-L2-021-011",
+    "assigned_label": "promoters_and_management",
+    "rule_id": "C15",
+    "parent_chapter": "OUR PROMOTERS AND PROMOTER GROUP",
+    "document": "maxwell_engineering",
+    "split": "train"
+  },
+  "RULE-070": {
+    "example_id": "axiom_gas-L2-025-102",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED AUDITED FINANCIAL INFORMATION",
+    "document": "axiom_gas",
+    "split": "train"
+  },
+  "RULE-071": {
+    "example_id": "maxwell_engineering-L2-014-014",
+    "assigned_label": "ipo_details",
+    "rule_id": "C08",
+    "parent_chapter": "BASIS FOR ISSUE PRICE",
+    "document": "maxwell_engineering",
+    "split": "train"
+  },
+  "RULE-072": {
+    "example_id": "axiom_gas-L2-018-004",
+    "assigned_label": "business_operations",
+    "rule_id": "C11",
+    "parent_chapter": "OUR BUSINESS",
+    "document": "axiom_gas",
+    "split": "train"
+  },
+  "RULE-073": {
+    "example_id": "quanto_agroworld-L2-034-051",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C22",
+    "parent_chapter": "OTHER REGULATORY AND STATUTORY DISCLOSURES",
+    "document": "quanto_agroworld",
+    "split": "train"
+  },
+  "RULE-074": {
+    "example_id": "quanto_agroworld-L2-017-008",
+    "assigned_label": "ipo_details",
+    "rule_id": "C08",
+    "parent_chapter": "BASIS FOR ISSUE PRICE",
+    "document": "quanto_agroworld",
+    "split": "train"
+  },
+  "RULE-075": {
+    "example_id": "axiom_gas-L2-035-024",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "ISSUE PROCEDURE",
+    "document": "axiom_gas",
+    "split": "train"
+  },
+  "RULE-076": {
+    "example_id": "maxwell_engineering-L2-018-064",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C12",
+    "parent_chapter": "KEY INDUSTRY REGULATIONS",
+    "document": "maxwell_engineering",
+    "split": "train"
+  },
+  "RULE-077": {
+    "example_id": "quanto_agroworld-L2-019-032",
+    "assigned_label": "industry_information",
+    "rule_id": "C10",
+    "parent_chapter": "INDUSTRY OVERVIEW",
+    "document": "quanto_agroworld",
+    "split": "train"
+  },
+  "RULE-078": {
+    "example_id": "maxwell_engineering-L2-020-046",
+    "assigned_label": "promoters_and_management",
+    "rule_id": "C14",
+    "parent_chapter": "OUR MANAGEMENT",
+    "document": "maxwell_engineering",
+    "split": "train"
+  },
+  "TEST-001": {
+    "example_id": "ideas_electricals-L2-006-034",
+    "assigned_label": "risk_factors",
+    "rule_id": "C02",
+    "parent_chapter": "II. RISK FACTORS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-002": {
+    "example_id": "ideas_electricals-L2-023-096",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL STATEMENTS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-003": {
+    "example_id": "ideas_electricals-L2-026-023",
+    "assigned_label": "financial_information",
+    "rule_id": "C19",
+    "parent_chapter": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITIONS AND RESULTS OF OPERATIONS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-004": {
+    "example_id": "ideas_electricals-L2-017-019",
+    "assigned_label": "business_operations",
+    "rule_id": "C11",
+    "parent_chapter": "OUR BUSINESS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-005": {
+    "example_id": "ideas_electricals-L2-033-003",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "ISSUE STRUCTURE",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-006": {
+    "example_id": "ideas_electricals-L2-018-054",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C12",
+    "parent_chapter": "KEY INDUSTRIAL REGULATIONS AND POLICIES",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-007": {
+    "example_id": "ideas_electricals-L2-006-069",
+    "assigned_label": "risk_factors",
+    "rule_id": "C02",
+    "parent_chapter": "II. RISK FACTORS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-008": {
+    "example_id": "ideas_electricals-L2-016-004",
+    "assigned_label": "industry_information",
+    "rule_id": "C10",
+    "parent_chapter": "INDUSTRY OVERVIEW",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-009": {
+    "example_id": "ideas_electricals-L2-011-022",
+    "assigned_label": "ipo_details",
+    "rule_id": "G03",
+    "parent_chapter": "GENERAL INFORMATION",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-010": {
+    "example_id": "ideas_electricals-L2-026-034",
+    "assigned_label": "financial_information",
+    "rule_id": "C19",
+    "parent_chapter": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITIONS AND RESULTS OF OPERATIONS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-011": {
+    "example_id": "ideas_electricals-L2-010-007",
+    "assigned_label": "related_party_transactions",
+    "rule_id": "C17",
+    "parent_chapter": "SUMMARY OF RELATED PARTY TRANSACTIONS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-012": {
+    "example_id": "ideas_electricals-L2-006-018",
+    "assigned_label": "risk_factors",
+    "rule_id": "C02",
+    "parent_chapter": "II. RISK FACTORS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-013": {
+    "example_id": "ideas_electricals-L2-026-049",
+    "assigned_label": "financial_information",
+    "rule_id": "C19",
+    "parent_chapter": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITIONS AND RESULTS OF OPERATIONS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-014": {
+    "example_id": "ideas_electricals-L2-021-017",
+    "assigned_label": "promoters_and_management",
+    "rule_id": "C15",
+    "parent_chapter": "OUR PROMOTERS AND PROMOTER GROUP",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-015": {
+    "example_id": "ideas_electricals-L2-031-002+1",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C22",
+    "parent_chapter": "OTHER REGULATORY AND STATUTORY DISCLOSURES",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-016": {
+    "example_id": "ideas_electricals-L2-006-076",
+    "assigned_label": "risk_factors",
+    "rule_id": "C02",
+    "parent_chapter": "II. RISK FACTORS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-017": {
+    "example_id": "ideas_electricals-L2-023-127",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL STATEMENTS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-018": {
+    "example_id": "ideas_electricals-L2-031-019",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C22",
+    "parent_chapter": "OTHER REGULATORY AND STATUTORY DISCLOSURES",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-019": {
+    "example_id": "ideas_electricals-L2-019-013",
+    "assigned_label": "company_information",
+    "rule_id": "C13",
+    "parent_chapter": "HISTORY AND CORPORATE STRUCTURE",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-020": {
+    "example_id": "ideas_electricals-L2-016-019",
+    "assigned_label": "industry_information",
+    "rule_id": "C10",
+    "parent_chapter": "INDUSTRY OVERVIEW",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-021": {
+    "example_id": "ideas_electricals-L2-003-004",
+    "assigned_label": "disclosures_and_definitions",
+    "rule_id": "C01",
+    "parent_chapter": "DEFINITIONS AND ABBREVIATIONS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-022": {
+    "example_id": "ideas_electricals-L2-021-005",
+    "assigned_label": "promoters_and_management",
+    "rule_id": "C15",
+    "parent_chapter": "OUR PROMOTERS AND PROMOTER GROUP",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-023": {
+    "example_id": "ideas_electricals-L2-006-083",
+    "assigned_label": "risk_factors",
+    "rule_id": "C02",
+    "parent_chapter": "II. RISK FACTORS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-024": {
+    "example_id": "ideas_electricals-L2-023-061",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL STATEMENTS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-025": {
+    "example_id": "ideas_electricals-L2-023-099",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL STATEMENTS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-026": {
+    "example_id": "ideas_electricals-L2-026-037",
+    "assigned_label": "financial_information",
+    "rule_id": "C19",
+    "parent_chapter": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITIONS AND RESULTS OF OPERATIONS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-027": {
+    "example_id": "ideas_electricals-L2-023-078",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL STATEMENTS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-028": {
+    "example_id": "ideas_electricals-L2-021-021",
+    "assigned_label": "promoters_and_management",
+    "rule_id": "C15",
+    "parent_chapter": "OUR PROMOTERS AND PROMOTER GROUP",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-029": {
+    "example_id": "ideas_electricals-L2-023-094",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL STATEMENTS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-030": {
+    "example_id": "ideas_electricals-L2-006-072",
+    "assigned_label": "risk_factors",
+    "rule_id": "C02",
+    "parent_chapter": "II. RISK FACTORS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-031": {
+    "example_id": "ideas_electricals-L2-025-011",
+    "assigned_label": "financial_information",
+    "rule_id": "C19",
+    "parent_chapter": "STATEMENT OF FINANCIAL INDEBTEDNESS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-032": {
+    "example_id": "ideas_electricals-L2-017-015",
+    "assigned_label": "business_operations",
+    "rule_id": "C11",
+    "parent_chapter": "OUR BUSINESS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-033": {
+    "example_id": "ideas_electricals-L2-016-014",
+    "assigned_label": "industry_information",
+    "rule_id": "C10",
+    "parent_chapter": "INDUSTRY OVERVIEW",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-034": {
+    "example_id": "ideas_electricals-L2-032-008",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "TERMS OF THE ISSUE",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-035": {
+    "example_id": "ideas_electricals-L2-012-005",
+    "assigned_label": "capital_structure",
+    "rule_id": "C05",
+    "parent_chapter": "CAPITAL STRUCTURE",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-036": {
+    "example_id": "ideas_electricals-L2-013-014",
+    "assigned_label": "objects_of_issue",
+    "rule_id": "C07",
+    "parent_chapter": "OBJECTS OF THE ISSUE",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-037": {
+    "example_id": "ideas_electricals-L2-017-016+1",
+    "assigned_label": "business_operations",
+    "rule_id": "C11",
+    "parent_chapter": "OUR BUSINESS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-038": {
+    "example_id": "ideas_electricals-L2-004-002",
+    "assigned_label": "disclosures_and_definitions",
+    "rule_id": "C01",
+    "parent_chapter": "CERTAIN CONVENTIONS, PRESENTATION OF FINANCIAL, INDUSTRY AND MARKET DATA AND CURRENCY OF PRESENTATION",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-039": {
+    "example_id": "ideas_electricals-L2-034-041",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "ISSUE PROCEDURE",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-040": {
+    "example_id": "ideas_electricals-L2-032-017",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "TERMS OF THE ISSUE",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-041": {
+    "example_id": "ideas_electricals-L2-012-003",
+    "assigned_label": "capital_structure",
+    "rule_id": "C05",
+    "parent_chapter": "CAPITAL STRUCTURE",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-042": {
+    "example_id": "ideas_electricals-L2-021-020",
+    "assigned_label": "promoters_and_management",
+    "rule_id": "C15",
+    "parent_chapter": "OUR PROMOTERS AND PROMOTER GROUP",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-043": {
+    "example_id": "ideas_electricals-L2-023-029",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL STATEMENTS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-044": {
+    "example_id": "ideas_electricals-L2-006-055",
+    "assigned_label": "risk_factors",
+    "rule_id": "C02",
+    "parent_chapter": "II. RISK FACTORS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-045": {
+    "example_id": "ideas_electricals-L2-032-031",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "TERMS OF THE ISSUE",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-046": {
+    "example_id": "ideas_electricals-L2-037-001",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C23",
+    "parent_chapter": "MATERIAL CONTRACTS AND DOCUMENTS FOR INSPECTION",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-047": {
+    "example_id": "ideas_electricals-L2-006-032",
+    "assigned_label": "risk_factors",
+    "rule_id": "C02",
+    "parent_chapter": "II. RISK FACTORS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-048": {
+    "example_id": "ideas_electricals-L2-021-019",
+    "assigned_label": "litigation",
+    "rule_id": "K05",
+    "parent_chapter": "OUR PROMOTERS AND PROMOTER GROUP",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-049": {
+    "example_id": "ideas_electricals-L2-011-003",
+    "assigned_label": "company_information",
+    "rule_id": "G01",
+    "parent_chapter": "GENERAL INFORMATION",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-050": {
+    "example_id": "ideas_electricals-L2-020-036",
+    "assigned_label": "promoters_and_management",
+    "rule_id": "C14",
+    "parent_chapter": "OUR MANAGEMENT",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-051": {
+    "example_id": "ideas_electricals-L2-008-001",
+    "assigned_label": "financial_information",
+    "rule_id": "C19",
+    "parent_chapter": "SUMMARY OF OUR FINANCIAL STATEMENTS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-052": {
+    "example_id": "ideas_electricals-L2-019-001",
+    "assigned_label": "company_information",
+    "rule_id": "C13",
+    "parent_chapter": "HISTORY AND CORPORATE STRUCTURE",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-053": {
+    "example_id": "ideas_electricals-L2-019-012",
+    "assigned_label": "company_information",
+    "rule_id": "C13",
+    "parent_chapter": "HISTORY AND CORPORATE STRUCTURE",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-054": {
+    "example_id": "ideas_electricals-L2-023-013",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL STATEMENTS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-055": {
+    "example_id": "ideas_electricals-L2-018-050+1",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C12",
+    "parent_chapter": "KEY INDUSTRIAL REGULATIONS AND POLICIES",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-056": {
+    "example_id": "ideas_electricals-L2-031-010",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C22",
+    "parent_chapter": "OTHER REGULATORY AND STATUTORY DISCLOSURES",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-057": {
+    "example_id": "ideas_electricals-L2-032-018",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "TERMS OF THE ISSUE",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-058": {
+    "example_id": "ideas_electricals-L2-010-006",
+    "assigned_label": "related_party_transactions",
+    "rule_id": "C17",
+    "parent_chapter": "SUMMARY OF RELATED PARTY TRANSACTIONS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-059": {
+    "example_id": "ideas_electricals-L2-023-147",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL STATEMENTS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-060": {
+    "example_id": "ideas_electricals-L2-031-022",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C22",
+    "parent_chapter": "OTHER REGULATORY AND STATUTORY DISCLOSURES",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-061": {
+    "example_id": "ideas_electricals-L2-006-019",
+    "assigned_label": "risk_factors",
+    "rule_id": "C02",
+    "parent_chapter": "II. RISK FACTORS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-062": {
+    "example_id": "ideas_electricals-L2-013-002",
+    "assigned_label": "objects_of_issue",
+    "rule_id": "C07",
+    "parent_chapter": "OBJECTS OF THE ISSUE",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-063": {
+    "example_id": "ideas_electricals-L2-013-006",
+    "assigned_label": "objects_of_issue",
+    "rule_id": "C07",
+    "parent_chapter": "OBJECTS OF THE ISSUE",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-064": {
+    "example_id": "ideas_electricals-L2-026-015",
+    "assigned_label": "financial_information",
+    "rule_id": "C19",
+    "parent_chapter": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITIONS AND RESULTS OF OPERATIONS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-065": {
+    "example_id": "ideas_electricals-L2-018-013",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C12",
+    "parent_chapter": "KEY INDUSTRIAL REGULATIONS AND POLICIES",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-066": {
+    "example_id": "ideas_electricals-L2-023-105",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL STATEMENTS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-067": {
+    "example_id": "ideas_electricals-L2-017-008",
+    "assigned_label": "business_operations",
+    "rule_id": "C11",
+    "parent_chapter": "OUR BUSINESS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-068": {
+    "example_id": "ideas_electricals-L2-034-017",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "ISSUE PROCEDURE",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-069": {
+    "example_id": "ideas_electricals-L2-014-002",
+    "assigned_label": "qualitative_factors",
+    "rule_id": "K02",
+    "parent_chapter": "BASIS FOR ISSUE PRICE",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-070": {
+    "example_id": "ideas_electricals-L2-034-021",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "ISSUE PROCEDURE",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-071": {
+    "example_id": "ideas_electricals-L2-023-074",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL STATEMENTS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-072": {
+    "example_id": "ideas_electricals-L2-030-004",
+    "assigned_label": "litigation",
+    "rule_id": "K05",
+    "parent_chapter": "OUR GROUP COMPANY",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-073": {
+    "example_id": "ideas_electricals-L2-016-003",
+    "assigned_label": "industry_information",
+    "rule_id": "C10",
+    "parent_chapter": "INDUSTRY OVERVIEW",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-074": {
+    "example_id": "ideas_electricals-L2-023-027",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL STATEMENTS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-075": {
+    "example_id": "ideas_electricals-L2-031-043",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C22",
+    "parent_chapter": "OTHER REGULATORY AND STATUTORY DISCLOSURES",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-076": {
+    "example_id": "ideas_electricals-L2-010-004",
+    "assigned_label": "related_party_transactions",
+    "rule_id": "C17",
+    "parent_chapter": "SUMMARY OF RELATED PARTY TRANSACTIONS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-077": {
+    "example_id": "ideas_electricals-L2-017-002",
+    "assigned_label": "business_operations",
+    "rule_id": "C11",
+    "parent_chapter": "OUR BUSINESS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-078": {
+    "example_id": "ideas_electricals-L2-018-071",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C12",
+    "parent_chapter": "KEY INDUSTRIAL REGULATIONS AND POLICIES",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-079": {
+    "example_id": "ideas_electricals-L2-023-025+1",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL STATEMENTS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-080": {
+    "example_id": "ideas_electricals-L2-018-061+1",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C12",
+    "parent_chapter": "KEY INDUSTRIAL REGULATIONS AND POLICIES",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-081": {
+    "example_id": "ideas_electricals-L2-018-038",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C12",
+    "parent_chapter": "KEY INDUSTRIAL REGULATIONS AND POLICIES",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-082": {
+    "example_id": "ideas_electricals-L2-020-019",
+    "assigned_label": "promoters_and_management",
+    "rule_id": "C14",
+    "parent_chapter": "OUR MANAGEMENT",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-083": {
+    "example_id": "ideas_electricals-L2-011-019",
+    "assigned_label": "ipo_details",
+    "rule_id": "G03",
+    "parent_chapter": "GENERAL INFORMATION",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-084": {
+    "example_id": "ideas_electricals-L2-011-013",
+    "assigned_label": "ipo_details",
+    "rule_id": "G03",
+    "parent_chapter": "GENERAL INFORMATION",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-085": {
+    "example_id": "ideas_electricals-L2-012-014",
+    "assigned_label": "capital_structure",
+    "rule_id": "C05",
+    "parent_chapter": "CAPITAL STRUCTURE",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-086": {
+    "example_id": "ideas_electricals-L2-013-012",
+    "assigned_label": "objects_of_issue",
+    "rule_id": "C07",
+    "parent_chapter": "OBJECTS OF THE ISSUE",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-087": {
+    "example_id": "ideas_electricals-L2-011-027",
+    "assigned_label": "ipo_details",
+    "rule_id": "G03",
+    "parent_chapter": "GENERAL INFORMATION",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-088": {
+    "example_id": "ideas_electricals-L2-026-008",
+    "assigned_label": "financial_information",
+    "rule_id": "C19",
+    "parent_chapter": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITIONS AND RESULTS OF OPERATIONS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-089": {
+    "example_id": "ideas_electricals-L2-020-012",
+    "assigned_label": "promoters_and_management",
+    "rule_id": "C14",
+    "parent_chapter": "OUR MANAGEMENT",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-090": {
+    "example_id": "ideas_electricals-L2-026-033",
+    "assigned_label": "financial_information",
+    "rule_id": "C19",
+    "parent_chapter": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITIONS AND RESULTS OF OPERATIONS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-091": {
+    "example_id": "ideas_electricals-L2-038-001",
+    "assigned_label": "declarations",
+    "rule_id": "C24",
+    "parent_chapter": "DECLARATION",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-092": {
+    "example_id": "ideas_electricals-L2-012-004",
+    "assigned_label": "capital_structure",
+    "rule_id": "C05",
+    "parent_chapter": "CAPITAL STRUCTURE",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-093": {
+    "example_id": "ideas_electricals-L2-019-004",
+    "assigned_label": "company_information",
+    "rule_id": "C13",
+    "parent_chapter": "HISTORY AND CORPORATE STRUCTURE",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-094": {
+    "example_id": "ideas_electricals-L2-018-070",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C12",
+    "parent_chapter": "KEY INDUSTRIAL REGULATIONS AND POLICIES",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-095": {
+    "example_id": "ideas_electricals-L2-018-040",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C12",
+    "parent_chapter": "KEY INDUSTRIAL REGULATIONS AND POLICIES",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-096": {
+    "example_id": "ideas_electricals-L2-004-004",
+    "assigned_label": "disclosures_and_definitions",
+    "rule_id": "C01",
+    "parent_chapter": "CERTAIN CONVENTIONS, PRESENTATION OF FINANCIAL, INDUSTRY AND MARKET DATA AND CURRENCY OF PRESENTATION",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-097": {
+    "example_id": "ideas_electricals-L2-023-043",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL STATEMENTS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-098": {
+    "example_id": "ideas_electricals-L2-034-016",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "ISSUE PROCEDURE",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-099": {
+    "example_id": "ideas_electricals-L2-033-002",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "ISSUE STRUCTURE",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "TEST-100": {
+    "example_id": "ideas_electricals-L2-028-003",
+    "assigned_label": "litigation",
+    "rule_id": "C21",
+    "parent_chapter": "OUTSTANDING LITIGATIONS AND MATERIAL DEVELOPMENTS",
+    "document": "ideas_electricals",
+    "split": "test"
+  },
+  "CONSIST-001": {
+    "example_id": "century-L2-016-019",
+    "assigned_label": "industry_information",
+    "rule_id": "C10",
+    "parent_chapter": "INDUSTRY OVERVIEW",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-001"
+  },
+  "CONSIST-002": {
+    "example_id": "century-L2-011-021",
+    "assigned_label": "ipo_details",
+    "rule_id": "G03",
+    "parent_chapter": "GENERAL INFORMATION",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-004"
+  },
+  "CONSIST-003": {
+    "example_id": "century-L2-026-023",
+    "assigned_label": "financial_information",
+    "rule_id": "C19",
+    "parent_chapter": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITIONS AND RESULTS OF OPERATIONS",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-005"
+  },
+  "CONSIST-004": {
+    "example_id": "century-L2-010-006",
+    "assigned_label": "related_party_transactions",
+    "rule_id": "C17",
+    "parent_chapter": "SUMMARY OF RELATED PARTY TRANSACTIONS",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-012"
+  },
+  "CONSIST-005": {
+    "example_id": "century-L2-019-013",
+    "assigned_label": "company_information",
+    "rule_id": "C13",
+    "parent_chapter": "HISTORY AND CORPORATE STRUCTURE",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-014"
+  },
+  "CONSIST-006": {
+    "example_id": "century-L2-023-023",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL INFORMATION",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-015"
+  },
+  "CONSIST-007": {
+    "example_id": "century-L2-026-014",
+    "assigned_label": "financial_information",
+    "rule_id": "C19",
+    "parent_chapter": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITIONS AND RESULTS OF OPERATIONS",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-018"
+  },
+  "CONSIST-008": {
+    "example_id": "century-L2-023-106",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL INFORMATION",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-026"
+  },
+  "CONSIST-009": {
+    "example_id": "century-L2-005-001",
+    "assigned_label": "disclosures_and_definitions",
+    "rule_id": "C01",
+    "parent_chapter": "FORWARD LOOKING STATEMENTS",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-028"
+  },
+  "CONSIST-010": {
+    "example_id": "century-L2-010-007",
+    "assigned_label": "related_party_transactions",
+    "rule_id": "C17",
+    "parent_chapter": "SUMMARY OF RELATED PARTY TRANSACTIONS",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-029"
+  },
+  "CONSIST-011": {
+    "example_id": "century-L2-032-031",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "TERMS OF THE ISSUE",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-030"
+  },
+  "CONSIST-012": {
+    "example_id": "century-L2-038-001",
+    "assigned_label": "declarations",
+    "rule_id": "C24",
+    "parent_chapter": "DECLARATION",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-032"
+  },
+  "CONSIST-013": {
+    "example_id": "century-L2-028-042",
+    "assigned_label": "litigation",
+    "rule_id": "C21",
+    "parent_chapter": "OUTSTANDING LITIGATIONS AND MATERIAL DEVELOPMENTS",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-036"
+  },
+  "CONSIST-014": {
+    "example_id": "century-L2-020-003",
+    "assigned_label": "promoters_and_management",
+    "rule_id": "C14",
+    "parent_chapter": "OUR MANAGEMENT",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-054"
+  },
+  "CONSIST-015": {
+    "example_id": "century-L2-006-014",
+    "assigned_label": "risk_factors",
+    "rule_id": "C02",
+    "parent_chapter": "II. RISK FACTORS",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-055"
+  },
+  "CONSIST-016": {
+    "example_id": "century-L2-028-035",
+    "assigned_label": "litigation",
+    "rule_id": "C21",
+    "parent_chapter": "OUTSTANDING LITIGATIONS AND MATERIAL DEVELOPMENTS",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-058"
+  },
+  "CONSIST-017": {
+    "example_id": "century-L2-016-004",
+    "assigned_label": "industry_information",
+    "rule_id": "C10",
+    "parent_chapter": "INDUSTRY OVERVIEW",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-065"
+  },
+  "CONSIST-018": {
+    "example_id": "century-L2-017-002",
+    "assigned_label": "business_operations",
+    "rule_id": "C11",
+    "parent_chapter": "OUR BUSINESS",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-070"
+  },
+  "CONSIST-019": {
+    "example_id": "century-L2-023-022",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL INFORMATION",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-072"
+  },
+  "CONSIST-020": {
+    "example_id": "century-L2-033-004",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "ISSUE STRUCTURE",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-076"
+  },
+  "CONSIST-021": {
+    "example_id": "century-L2-013-015",
+    "assigned_label": "objects_of_issue",
+    "rule_id": "C07",
+    "parent_chapter": "OBJECTS OF THE ISSUE",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-078"
+  },
+  "CONSIST-022": {
+    "example_id": "century-L2-026-012",
+    "assigned_label": "financial_information",
+    "rule_id": "C19",
+    "parent_chapter": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITIONS AND RESULTS OF OPERATIONS",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-082"
+  },
+  "CONSIST-023": {
+    "example_id": "century-L2-019-004",
+    "assigned_label": "company_information",
+    "rule_id": "C13",
+    "parent_chapter": "HISTORY AND CORPORATE STRUCTURE",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-085"
+  },
+  "CONSIST-024": {
+    "example_id": "century-L2-031-023",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C22",
+    "parent_chapter": "OTHER REGULATORY AND STATUTORY DISCLOSURES",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-087"
+  },
+  "CONSIST-025": {
+    "example_id": "century-L2-023-098",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL INFORMATION",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-089"
+  },
+  "CONSIST-026": {
+    "example_id": "century-L2-034-018",
+    "assigned_label": "ipo_details",
+    "rule_id": "C03",
+    "parent_chapter": "ISSUE PROCEDURE",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-090"
+  },
+  "CONSIST-027": {
+    "example_id": "century-L2-028-014+1",
+    "assigned_label": "litigation",
+    "rule_id": "C21",
+    "parent_chapter": "OUTSTANDING LITIGATIONS AND MATERIAL DEVELOPMENTS",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-094"
+  },
+  "CONSIST-028": {
+    "example_id": "century-L2-023-031",
+    "assigned_label": "financial_statements",
+    "rule_id": "C20",
+    "parent_chapter": "RESTATED FINANCIAL INFORMATION",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-095"
+  },
+  "CONSIST-029": {
+    "example_id": "century-L2-031-008",
+    "assigned_label": "legal_and_regulatory",
+    "rule_id": "C22",
+    "parent_chapter": "OTHER REGULATORY AND STATUTORY DISCLOSURES",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-096"
+  },
+  "CONSIST-030": {
+    "example_id": "century-L2-006-070",
+    "assigned_label": "risk_factors",
+    "rule_id": "C02",
+    "parent_chapter": "II. RISK FACTORS",
+    "document": "century",
+    "split": "consistency_validation",
+    "mirrors_blind_id": "VAL-098"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "base_model": {
+    "model_id": "unsloth/gemma-3-1b-it",
+    "sources": [
+      {"file": "train.py", "line": 61, "setting": "default='unsloth/gemma-3-1b-it'"},
+      {"file": "data/build_v3_dataset.py", "line": 19, "setting": "MODEL_NAME = 'unsloth/gemma-3-1b-it'"},
+      {"file": "data/audit_v3_chat_template.py", "line": 16, "setting": "MODEL_NAME = 'unsloth/gemma-3-1b-it'"},
+      {"file": "evaluate_model.py", "line": 36, "setting": "MODEL_PATH = 'checkpoints/section_classifier_v3/final'"}
+    ],
+    "local_cache_status": {
+      "cached": true,
+      "cache_directories": [
+        "C:\\Users\\piyushi singh\\.cache\\huggingface\\hub\\models--unsloth--gemma-3-1b-it",
+        "C:\\Users\\piyushi singh\\.cache\\huggingface\\hub\\models--unsloth--gemma-3-1b-it-unsloth-bnb-4bit"
+      ],
+      "snapshot_path": "C:\\Users\\piyushi singh\\.cache\\huggingface\\hub\\models--unsloth--gemma-3-1b-it\\snapshots\\5b11413a10db4e486ef16a20101fd028f8f2499c",
+      "model_safetensors_present": true,
+      "requires_network_download": false
+    }
+  },
+  "quantization_4bit": {
+    "load_in_4bit": true,
+    "source_lines": [
+      {"file": "train.py", "line": 292, "code": "load_in_4bit=True"},
+      {"file": "evaluate_model.py", "line": 85, "code": "load_in_4bit=True"}
+    ]
+  },
+  "lora_parameters": {
+    "r": 16,
+    "alpha": 16,
+    "dropout": 0,
+    "target_modules": [
+      "q_proj", "k_proj", "v_proj", "o_proj",
+      "gate_proj", "up_proj", "down_proj"
+    ],
+    "bias": "none",
+    "use_gradient_checkpointing": "unsloth",
+    "random_state": 3407,
+    "source_lines": [
+      {"file": "train.py", "line": 96, "code": "lora_r default=16"},
+      {"file": "train.py", "line": 103, "code": "lora_alpha default=16"},
+      {"file": "train.py", "line": 314, "code": "r=args.lora_r"},
+      {"file": "train.py", "line": 316, "code": "target_modules=[q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]"},
+      {"file": "train.py", "line": 326, "code": "lora_alpha=args.lora_alpha"},
+      {"file": "train.py", "line": 328, "code": "lora_dropout=0"},
+      {"file": "train.py", "line": 330, "code": "bias='none'"},
+      {"file": "train.py", "line": 332, "code": "use_gradient_checkpointing='unsloth'"},
+      {"file": "train.py", "line": 334, "code": "random_state=3407"}
+    ]
+  },
+  "training_hyperparameters": {
+    "learning_rate": 0.0001,
+    "lr_scheduler_type": "cosine",
+    "warmup_ratio": 0.05,
+    "optimizer": "adamw_8bit",
+    "weight_decay": 0.01,
+    "num_train_epochs": 3.0,
+    "per_device_train_batch_size": 1,
+    "gradient_accumulation_steps": 8,
+    "effective_batch_size": 8,
+    "precision": {
+      "bf16": true,
+      "fp16": false
+    },
+    "seed": 3407,
+    "packing": false,
+    "max_seq_length": 768,
+    "source_lines": [
+      {"file": "train.py", "line": 89, "code": "max_seq_length default=768"},
+      {"file": "train.py", "line": 110, "code": "per_device_train_batch_size default=1"},
+      {"file": "train.py", "line": 117, "code": "gradient_accumulation_steps default=8"},
+      {"file": "train.py", "line": 124, "code": "num_train_epochs default=3.0"},
+      {"file": "train.py", "line": 131, "code": "learning_rate default=1e-4"},
+      {"file": "train.py", "line": 424, "code": "warmup_ratio=0.05"},
+      {"file": "train.py", "line": 438, "code": "optim='adamw_8bit'"},
+      {"file": "train.py", "line": 440, "code": "weight_decay=0.01"},
+      {"file": "train.py", "line": 442, "code": "lr_scheduler_type='cosine'"},
+      {"file": "train.py", "line": 444, "code": "seed=3407"},
+      {"file": "train.py", "line": 446, "code": "fp16=not is_bfloat16_supported()"},
+      {"file": "train.py", "line": 448, "code": "bf16=is_bfloat16_supported()"}
+    ]
+  },
+  "example_rendering_and_chat_template": {
+    "template_type": "gemma-3",
+    "template_source_lines": [
+      {"file": "train.py", "line": 298, "code": "tokenizer = get_chat_template(tokenizer, chat_template='gemma-3')"},
+      {"file": "data/audit_v3_chat_template.py", "line": 107, "code": "full_text = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=False)"}
+    ],
+    "structure": {
+      "prompt_role": "user",
+      "completion_role": "assistant",
+      "rendered_pattern": "<bos><start_of_turn>user\n{instruction}\n\nHeading: {heading}\n\nSection text:\n{body}<end_of_turn>\n<start_of_turn>model\n{category}<end_of_turn>\n"
+    }
+  },
+  "bos_handling": {
+    "rendered_text_starts_with_bos": true,
+    "bos_token_id": 2,
+    "bos_token_string": "<bos>",
+    "tokenization_behavior": {
+      "with_add_special_tokens_true": {
+        "first_5_ids": [2, 2, 105, 2364, 107],
+        "bos_count": 2,
+        "note": "DOUBLE BOS BUG: tokenizer adds <bos> on top of template's literal <bos>"
+      },
+      "with_add_special_tokens_false": {
+        "first_5_ids": [2, 105, 2364, 107, 4335],
+        "bos_count": 1,
+        "note": "CORRECT: exactly one BOS at index 0"
+      },
+      "with_apply_chat_template_tokenize_true": {
+        "first_5_ids": [2, 105, 2364, 107, 4335],
+        "bos_count": 1,
+        "note": "CORRECT: exactly one BOS at index 0"
+      }
+    }
+  },
+  "completion_only_loss": {
+    "implementation": "TRL SFTConfig(completion_only_loss=True) with prompt and completion conversational dataset",
+    "source_lines": [
+      {"file": "train.py", "line": 463, "code": "completion_only_loss=True"},
+      {"file": "train.py", "line": 467, "code": "dataset_text_field=None"},
+      {"file": "train.py", "line": 206, "code": "prompt: [{'role': 'user', 'content': prompt_text}]"},
+      {"file": "train.py", "line": 213, "code": "completion: [{'role': 'assistant', 'content': output}]"}
+    ],
+    "trl_mechanism": "TRL 0.24.0 sets completion_mask=1 on assistant tokens and 0 on user tokens, setting labels[completion_mask == 0] = -100 in sft_trainer.py:452"
+  },
+  "v3_instruction": {
+    "text": "Classify the following SME IPO prospectus section into the most appropriate document category.",
+    "token_count": 15,
+    "token_ids": [4335, 1891, 506, 2269, 54113, 65853, 166578, 3336, 1131, 506, 1346, 6780, 2354, 8038, 236761],
+    "decoded_tokens": ["Class", "ify", " the", " following", " SME", " IPO", " prospectus", " section", " into", " the", " most", " appropriate", " document", " category", "."]
+  },
+  "dataset_split_provenance": {
+    "v3_train_records": 1864,
+    "v3_val_records": 196,
+    "v3_eval_records": 437,
+    "v3_total_sections": 2497,
+    "v3_eval_script_bug": {
+      "file": "evaluate_model.py",
+      "line": 40,
+      "max_seq_length": 256,
+      "impact": "Truncated 65.4% of test examples"
+    }
+  },
+  "environment_versions": {
+    "trl": "0.24.0",
+    "transformers": "4.49.0",
+    "peft": "0.14.0",
+    "torch": "2.6.0+cu128",
+    "compatible": true
+  }
+}
+

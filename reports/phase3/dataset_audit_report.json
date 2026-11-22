@@ -1,0 +1,121 @@
+{
+  "data_dir": "runs\\data_v4_1536",
+  "max_seq_len": 1536,
+  "violations": {
+    "length_exceeded": 0,
+    "target_tokens_mismatch": 0,
+    "decoded_target_mismatch": 0,
+    "bos_count_violation": 0,
+    "loss_mask_violation": 0,
+    "label_vocabulary_violation": 0,
+    "duplicate_ids": 0,
+    "split_document_leakage": 0
+  },
+  "splits": {
+    "train": {
+      "total_audited": 3786,
+      "documents": [
+        "axiom_gas",
+        "maxwell_engineering",
+        "photonics_watertech",
+        "quanto_agroworld"
+      ]
+    },
+    "validation": {
+      "total_audited": 726,
+      "documents": [
+        "century"
+      ]
+    }
+  },
+  "train_validation_document_disjointness": {
+    "train_documents": [
+      "axiom_gas",
+      "maxwell_engineering",
+      "photonics_watertech",
+      "quanto_agroworld"
+    ],
+    "validation_documents": [
+      "century"
+    ],
+    "overlap": [],
+    "disjoint": true
+  },
+  "training_unmasked_spans_sample": [
+    {
+      "example_id": "photonics_watertech-L2-003-001",
+      "target_label": "disclosures_and_definitions",
+      "unmasked_token_ids": [
+        2763,
+        56785,
+        236779,
+        624,
+        236779,
+        90906,
+        106,
+        107
+      ],
+      "unmasked_decoded": "disclosures_and_definitions<end_of_turn>"
+    },
+    {
+      "example_id": "photonics_watertech-L2-003-002",
+      "target_label": "disclosures_and_definitions",
+      "unmasked_token_ids": [
+        2763,
+        56785,
+        236779,
+        624,
+        236779,
+        90906,
+        106,
+        107
+      ],
+      "unmasked_decoded": "disclosures_and_definitions<end_of_turn>"
+    },
+    {
+      "example_id": "photonics_watertech-L2-003-003",
+      "target_label": "disclosures_and_definitions",
+      "unmasked_token_ids": [
+        2763,
+        56785,
+        236779,
+        624,
+        236779,
+        90906,
+        106,
+        107
+      ],
+      "unmasked_decoded": "disclosures_and_definitions<end_of_turn>"
+    },
+    {
+      "example_id": "photonics_watertech-L2-003-004",
+      "target_label": "disclosures_and_definitions",
+      "unmasked_token_ids": [
+        2763,
+        56785,
+        236779,
+        624,
+        236779,
+        90906,
+        106,
+        107
+      ],
+      "unmasked_decoded": "disclosures_and_definitions<end_of_turn>"
+    },
+    {
+      "example_id": "photonics_watertech-L2-003-005",
+      "target_label": "disclosures_and_definitions",
+      "unmasked_token_ids": [
+        2763,
+        56785,
+        236779,
+        624,
+        236779,
+        90906,
+        106,
+        107
+      ],
+      "unmasked_decoded": "disclosures_and_definitions<end_of_turn>"
+    }
+  ]
+}

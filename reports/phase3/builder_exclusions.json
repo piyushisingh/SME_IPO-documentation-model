@@ -1,0 +1,27 @@
+{
+  "train": {
+    "v4_total": 3801,
+    "excluded_count": 15,
+    "eligible_count": 3786,
+    "reasons": {
+      "fragment_heading_suspected": 1,
+      "heading_is_paragraph_suspected": 14
+    }
+  },
+  "validation": {
+    "v4_total": 731,
+    "excluded_count": 5,
+    "eligible_count": 726,
+    "reasons": {
+      "heading_is_paragraph_suspected": 5
+    }
+  },
+  "test": {
+    "v4_total": 830,
+    "excluded_count": 6,
+    "eligible_count": 824,
+    "reasons": {
+      "heading_is_paragraph_suspected": 6
+    }
+  }
+}

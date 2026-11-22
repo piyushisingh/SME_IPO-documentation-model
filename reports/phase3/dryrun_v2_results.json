@@ -1,0 +1,112 @@
+{
+  "baseline_gpu": {
+    "total_mb": 8188.0,
+    "used_mb": 1205.0,
+    "free_mb": 6752.0,
+    "total_gb": 7.996,
+    "used_gb": 1.177,
+    "free_gb": 6.594
+  },
+  "v3_parameters_comparison": {
+    "v3": {
+      "per_device_train_batch_size": 1,
+      "gradient_accumulation_steps": 8,
+      "effective_batch_size": 8
+    },
+    "dryrun_v2": {
+      "per_device_train_batch_size": 1,
+      "gradient_accumulation_steps": 8,
+      "effective_batch_size": 8
+    }
+  },
+  "worst_case_benchmarks": {
+    "1024": {
+      "cap": 1024,
+      "steps": 6,
+      "elapsed_seconds": 84.89,
+      "seconds_per_step": 14.148,
+      "torch_max_memory_allocated_gb": 1.965,
+      "torch_max_memory_reserved_gb": 2.127,
+      "nvidia_smi_peak_used_gb": 2.28,
+      "baseline_other_processes_gb": 1.177,
+      "total_vram_gb": 7.996,
+      "headroom_gb": 5.716,
+      "step_losses": [
+        17.285587310791016,
+        16.87963104248047,
+        14.270380020141602,
+        11.318948745727539,
+        8.511201858520508,
+        7.5057597160339355
+      ],
+      "train_loss": 12.6286,
+      "longest_sequence_in_batch": 1021
+    },
+    "1536": {
+      "cap": 1536,
+      "steps": 6,
+      "elapsed_seconds": 72.1,
+      "seconds_per_step": 12.017,
+      "torch_max_memory_allocated_gb": 2.413,
+      "torch_max_memory_reserved_gb": 2.783,
+      "nvidia_smi_peak_used_gb": 2.937,
+      "baseline_other_processes_gb": 1.177,
+      "total_vram_gb": 7.996,
+      "headroom_gb": 5.059,
+      "step_losses": [
+        8.943291664123535,
+        8.532075881958008,
+        5.085412502288818,
+        3.445006847381592,
+        2.9228339195251465,
+        2.4710142612457275
+      ],
+      "train_loss": 5.2333,
+      "longest_sequence_in_batch": 1533
+    }
+  },
+  "stratified_benchmark_1024": {
+    "subset_size": 64,
+    "steps": 20,
+    "elapsed_seconds": 223.7,
+    "seconds_per_step": 11.185,
+    "samples_per_second": 0.715,
+    "tokens_per_second": 217.76,
+    "step_losses": [
+      4.276050567626953,
+      4.0560150146484375,
+      3.1532046794891357,
+      2.6532275676727295,
+      2.1453847885131836,
+      2.2183005809783936,
+      1.53140127658844,
+      1.2631045579910278,
+      0.9755605459213257,
+      0.7267419099807739,
+      1.1409417390823364,
+      0.7354806661605835,
+      0.870971143245697,
+      1.168649673461914,
+      1.1401338577270508,
+      1.1144965887069702,
+      0.6927210092544556,
+      0.8757341504096985,
+      0.5228273272514343,
+      0.8924469947814941
+    ],
+    "loss_readiness_check": {
+      "mean_first_5_steps": 3.2568,
+      "mean_last_5_steps": 0.8196,
+      "loss_decreased": true,
+      "disclaimer": "This is a pipeline readiness check, not evidence of generalized learning."
+    }
+  },
+  "full_training_projections_3_epochs": {
+    "total_train_examples": 3786,
+    "total_train_tokens_single_epoch": 1160178,
+    "total_train_tokens_3_epochs": 3480534,
+    "total_optimizer_steps_3_epochs": 1419.75,
+    "projected_hours_by_token_throughput": 4.44,
+    "projected_hours_worst_case_upper_bound": 5.58
+  }
+}

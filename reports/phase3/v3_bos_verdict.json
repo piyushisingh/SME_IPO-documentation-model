@@ -1,0 +1,49 @@
+{
+  "verdict": "V3 trained with a double BOS: NO",
+  "evidence": "TRL's SFTTrainer natively tokenizes conversational prompt/completion datasets via apply_chat_template(tokenize=True), which produces [2, 105, 2364, 107, 4335, 1891] (exactly 1 BOS token). The double-BOS bug was confined to the standalone audit script data/audit_v3_chat_template.py which manually rendered text and then called tokenizer() with add_special_tokens=True.",
+  "first_6_tokens_sample": [
+    {
+      "example_index": 0,
+      "first_6_token_ids": [
+        2,
+        105,
+        2364,
+        107,
+        4335,
+        1891
+      ],
+      "bos_count": 1,
+      "first_token": 2,
+      "second_token": 105
+    },
+    {
+      "example_index": 1,
+      "first_6_token_ids": [
+        2,
+        105,
+        2364,
+        107,
+        4335,
+        1891
+      ],
+      "bos_count": 1,
+      "first_token": 2,
+      "second_token": 105
+    },
+    {
+      "example_index": 2,
+      "first_6_token_ids": [
+        2,
+        105,
+        2364,
+        107,
+        4335,
+        1891
+      ],
+      "bos_count": 1,
+      "first_token": 2,
+      "second_token": 105
+    }
+  ],
+  "implication_for_evaluation": "When evaluating checkpoint v3, prompts should be formatted with standard SINGLE BOS: <bos><start_of_turn>user\n...<end_of_turn>\n<start_of_turn>model\n."
+}

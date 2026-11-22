@@ -1,0 +1,13 @@
+INVALID REVIEW MATERIAL — DO NOT USE FOR REVIEW
+
+The workbooks in this folder (specifically 05_blind_validation, 06_blind_rule_audit, 08_consistency_check, sealed/07_blind_test_SEALED, and the associated sampling_manifest.json, private/answer_key.json, and review_plan.md) contain defects identified during the Phase 2 Integrity Audit:
+
+1. Stratification Defect: The generator (src/sme_clf/make_review_pack.py) applied round-robin budget increments that produced a flat 7 samples across all 14 large categories (e.g. related_party_transactions with N=10 received n=7 [70%], while ipo_details with N=152 also received n=7 [4.6%]), failing to perform proper proportional stratified sampling.
+2. Missing Provenance Fields: sampling_manifest.json failed to record N_h_before_filters (the raw V4 split category population) alongside N_h (eligible post-filter population).
+3. Tier Misgrouping: review_plan.md misgrouped the review tiers and used outdated review time calculations.
+4. Composite ID Quality Flag Checking: Composite example IDs (forward-merged sections) were not mapped to their root IDs when verifying master_sections quality flags.
+
+ALL FILES IN THIS DIRECTORY HAVE BEEN SUPERSEDED.
+Use the corrected review pack in:
+reports/review_pack_v2/
+

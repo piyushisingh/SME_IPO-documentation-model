@@ -1,0 +1,70 @@
+{
+  "caps": {
+    "768": {
+      "train": {
+        "total_examples": 3786,
+        "truncated_examples": 377,
+        "truncated_percent": 9.96,
+        "median_fraction_kept": 1.0,
+        "p95_fraction_kept": 1.0,
+        "median_body_tokens": 161,
+        "max_total_tokens": 765,
+        "old_v4_plain_truncation_target_loss_count": 0
+      },
+      "validation": {
+        "total_examples": 726,
+        "truncated_examples": 95,
+        "truncated_percent": 13.09,
+        "median_fraction_kept": 1.0,
+        "p95_fraction_kept": 1.0,
+        "median_body_tokens": 173,
+        "max_total_tokens": 765,
+        "old_v4_plain_truncation_target_loss_count": 0
+      }
+    },
+    "1024": {
+      "train": {
+        "total_examples": 3786,
+        "truncated_examples": 228,
+        "truncated_percent": 6.02,
+        "median_fraction_kept": 1.0,
+        "p95_fraction_kept": 1.0,
+        "median_body_tokens": 161,
+        "max_total_tokens": 1021,
+        "old_v4_plain_truncation_target_loss_count": 0
+      },
+      "validation": {
+        "total_examples": 726,
+        "truncated_examples": 57,
+        "truncated_percent": 7.85,
+        "median_fraction_kept": 1.0,
+        "p95_fraction_kept": 1.0,
+        "median_body_tokens": 173,
+        "max_total_tokens": 1021,
+        "old_v4_plain_truncation_target_loss_count": 0
+      }
+    },
+    "1536": {
+      "train": {
+        "total_examples": 3786,
+        "truncated_examples": 109,
+        "truncated_percent": 2.88,
+        "median_fraction_kept": 1.0,
+        "p95_fraction_kept": 1.0,
+        "median_body_tokens": 161,
+        "max_total_tokens": 1533,
+        "old_v4_plain_truncation_target_loss_count": 0
+      },
+      "validation": {
+        "total_examples": 726,
+        "truncated_examples": 29,
+        "truncated_percent": 3.99,
+        "median_fraction_kept": 1.0,
+        "p95_fraction_kept": 1.0,
+        "median_body_tokens": 173,
+        "max_total_tokens": 1533,
+        "old_v4_plain_truncation_target_loss_count": 0
+      }
+    }
+  }
+}

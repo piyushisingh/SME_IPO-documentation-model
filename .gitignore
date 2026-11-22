@@ -4,3 +4,42 @@ unsloth_compiled_cache/
 checkpoints/
 __pycache__/
 *.pyc
+# Python environments and generated files
+env/
+.venv/
+venv/
+unsloth_env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Model checkpoints and caches
+checkpoints/
+unsloth_compiled_cache/
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.bin
+
+# Experiments and temporary files
+runs/
+backups/
+scratch_prompt*.txt
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated Python cache directories
+**/__pycache__/
+*.py[cod]
+
+# Local logs
+*.log

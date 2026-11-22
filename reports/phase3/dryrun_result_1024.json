@@ -1,0 +1,11 @@
+{
+  "is_dry_run": true,
+  "max_seq_length": 1024,
+  "total_steps": 20,
+  "elapsed_seconds": 168.66,
+  "seconds_per_step": 8.433,
+  "peak_vram_gb": 4.037,
+  "total_vram_gb": 8.0,
+  "vram_headroom_gb": 3.958,
+  "train_loss": 4.1438
+}

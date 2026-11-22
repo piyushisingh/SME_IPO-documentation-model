@@ -1,0 +1,68 @@
+{
+  "source": "Manifest aggregation of full vs kept tokens across all eligible sections",
+  "caps": {
+    "768": {
+      "cap": 768,
+      "train": {
+        "total_examples": 3786,
+        "total_body_tokens_full": 1236240,
+        "total_body_tokens_kept": 904049,
+        "token_retention_ratio": 0.731289,
+        "token_retention_pct": 73.1289,
+        "truncated_examples_count": 377,
+        "truncated_examples_pct": 9.9577
+      },
+      "validation": {
+        "total_examples": 726,
+        "total_body_tokens_full": 263679,
+        "total_body_tokens_kept": 190012,
+        "token_retention_ratio": 0.720619,
+        "token_retention_pct": 72.0619,
+        "truncated_examples_count": 95,
+        "truncated_examples_pct": 13.0854
+      }
+    },
+    "1024": {
+      "cap": 1024,
+      "train": {
+        "total_examples": 3786,
+        "total_body_tokens_full": 1236240,
+        "total_body_tokens_kept": 980478,
+        "token_retention_ratio": 0.793113,
+        "token_retention_pct": 79.3113,
+        "truncated_examples_count": 228,
+        "truncated_examples_pct": 6.0222
+      },
+      "validation": {
+        "total_examples": 726,
+        "total_body_tokens_full": 263679,
+        "total_body_tokens_kept": 209877,
+        "token_retention_ratio": 0.795956,
+        "token_retention_pct": 79.5956,
+        "truncated_examples_count": 57,
+        "truncated_examples_pct": 7.8512
+      }
+    },
+    "1536": {
+      "cap": 1536,
+      "train": {
+        "total_examples": 3786,
+        "total_body_tokens_full": 1236240,
+        "total_body_tokens_kept": 1064197,
+        "token_retention_ratio": 0.860834,
+        "token_retention_pct": 86.0834,
+        "truncated_examples_count": 109,
+        "truncated_examples_pct": 2.879
+      },
+      "validation": {
+        "total_examples": 726,
+        "total_body_tokens_full": 263679,
+        "total_body_tokens_kept": 231229,
+        "token_retention_ratio": 0.876934,
+        "token_retention_pct": 87.6934,
+        "truncated_examples_count": 29,
+        "truncated_examples_pct": 3.9945
+      }
+    }
+  }
+}

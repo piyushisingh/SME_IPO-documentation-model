@@ -1,0 +1,96 @@
+{
+  "dataset_format": "JSON with 'prompt' and 'completion' fields (conversational prompt-completion)",
+  "collator_class": "trl.trainer.sft_trainer.DataCollatorForLanguageModeling",
+  "masking_field": "SFTConfig(completion_only_loss=True)",
+  "train_v4_quoted_lines": [
+    "completion_only_loss=True,",
+    "dataset_text_field=None,",
+    "trainer = SFTTrainer(model=model, processing_class=tokenizer, train_dataset=train_dataset, eval_dataset=val_dataset, args=sft_config)"
+  ],
+  "verdict_answers": {
+    "unmasked_span_content": "Exact label tokens + [106, 107] (<end_of_turn>\\n)",
+    "trailing_newline_107_trained": true,
+    "eos_token_1_appended": false,
+    "bos_count": 1,
+    "matches_phase3b_findings": true
+  },
+  "examples": [
+    {
+      "example_index": 0,
+      "expected_label": "disclosures_and_definitions",
+      "seq_len": 805,
+      "bos_count": 1,
+      "bos_at_index_0": true,
+      "eos_present": false,
+      "unmasked_span_token_count": 7,
+      "unmasked_token_ids": [
+        12921,
+        236779,
+        624,
+        236779,
+        155215,
+        106,
+        107
+      ],
+      "decoded_unmasked_span": "'legal_and_regulatory<end_of_turn>\\n'",
+      "ends_with_end_of_turn_106": false,
+      "includes_trailing_newline_107": true,
+      "decoded_label_only": "legal_and_regulatory",
+      "exact_label_match": false,
+      "unmasked_indices_range": [
+        798,
+        804
+      ]
+    },
+    {
+      "example_index": 1,
+      "expected_label": "disclosures_and_definitions",
+      "seq_len": 459,
+      "bos_count": 1,
+      "bos_at_index_0": true,
+      "eos_present": false,
+      "unmasked_span_token_count": 5,
+      "unmasked_token_ids": [
+        26447,
+        236779,
+        13308,
+        106,
+        107
+      ],
+      "decoded_unmasked_span": "'ipo_details<end_of_turn>\\n'",
+      "ends_with_end_of_turn_106": false,
+      "includes_trailing_newline_107": true,
+      "decoded_label_only": "ipo_details",
+      "exact_label_match": false,
+      "unmasked_indices_range": [
+        454,
+        458
+      ]
+    },
+    {
+      "example_index": 2,
+      "expected_label": "disclosures_and_definitions",
+      "seq_len": 199,
+      "bos_count": 1,
+      "bos_at_index_0": true,
+      "eos_present": false,
+      "unmasked_span_token_count": 5,
+      "unmasked_token_ids": [
+        23019,
+        236779,
+        68382,
+        106,
+        107
+      ],
+      "decoded_unmasked_span": "'business_operations<end_of_turn>\\n'",
+      "ends_with_end_of_turn_106": false,
+      "includes_trailing_newline_107": true,
+      "decoded_label_only": "business_operations",
+      "exact_label_match": false,
+      "unmasked_indices_range": [
+        194,
+        198
+      ]
+    }
+  ]
+}

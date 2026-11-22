@@ -1,0 +1,29 @@
+{
+  "title": "SMOKE TEST \u2014 NOT A RESULT",
+  "description": "Validation smoke test on 20 examples using checkpoint v3 final",
+  "sample_size": 20,
+  "document": "century",
+  "model": "checkpoints/section_classifier_v3/final",
+  "speed_constrained_ex_per_sec": 0.106,
+  "elapsed_constrained_seconds": 188.72,
+  "peak_vram_allocated_gb": 2.46,
+  "peak_vram_reserved_gb": 3.764,
+  "equivalence_verification": {
+    "total_tested": 20,
+    "argmax_matches": 20,
+    "matches_required": 19,
+    "passed": true,
+    "max_log_prob_difference": 0.0,
+    "mean_log_prob_difference": 0.0
+  },
+  "diagnostic_mode": {
+    "total_tested": 20,
+    "invalid_count": 6,
+    "invalid_rate": 0.3
+  },
+  "metrics_smoke_only": {
+    "accuracy": 0.4,
+    "macro_f1_supported": 0.6582,
+    "weighted_f1": 0.5137
+  }
+}

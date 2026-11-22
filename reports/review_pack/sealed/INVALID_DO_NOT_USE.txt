@@ -1,0 +1,7 @@
+INVALID — DO NOT USE THIS WORKBOOK OR ITS CSV TWIN
+
+Reason for Invalidity:
+1. Stratification Defect: The generator (make_review_pack.py) applied a round-robin allocation that resulted in a completely flat 7 samples per category across all 14 categories >= 5 (e.g., related_party_transactions with N=8 got n=7, while financial_statements with N=145 also got n=7). This violates proportional stratification.
+2. Incomplete Manifest: sampling_manifest.json failed to record N_h_before_filters (the raw split category count).
+3. Superseded: A corrected, proportionally stratified sealed benchmark has been generated in reports/review_pack_v2/sealed/07_blind_test_SEALED.xlsx.
+
