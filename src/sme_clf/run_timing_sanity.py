@@ -71,9 +71,12 @@ def main():
 
     # Load 16 longest examples from manifests
     def get_longest_16(cap_dir: Path) -> List[Dict[str, Any]]:
-        manifest_path = cap_dir / "manifest_train.json"
+        manifest_path = cap_dir / "train_manifest.jsonl"
+        records = []
         with open(manifest_path, "r", encoding="utf-8") as f:
-            records = json.load(f)
+            for line in f:
+                if line.strip():
+                    records.append(json.loads(line))
         sorted_records = sorted(records, key=lambda r: r["total_tokens"], reverse=True)[:16]
         eids = set(r["example_id"] for r in sorted_records)
         train_path = cap_dir / "train.jsonl"

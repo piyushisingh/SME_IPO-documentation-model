@@ -1,0 +1,484 @@
+{
+  "per_doc": {
+    "century": {
+      "old_key": "Century",
+      "old_section_count": 196,
+      "empty_text": 0,
+      "text_len_lt_100": 2,
+      "text_len_median": 1631,
+      "text_len_max": 103289,
+      "text_len_p95": 18875,
+      "exact_duplicate_text_records": 2,
+      "page_start_python_types": {
+        "int": 196
+      },
+      "text_found_verbatim_in_pdf_text(alnum-normalised, first 70 chars)": 150,
+      "text_not_found_in_pdf": 46,
+      "page_start_matches_a_pdf_page_where_text_occurs": 137,
+      "page_start_does_not_match": 13,
+      "most_common_pdf_page_minus_old_page_start": [
+        [
+          1,
+          4
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          -2,
+          3
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "heading_repeated_at_start_of_text": 0,
+      "category_counts": {
+        "legal_and_regulatory": 35,
+        "ipo_details": 31,
+        "financial_information": 27,
+        "financial_statements": 24,
+        "other": 13,
+        "capital_structure": 13,
+        "promoters_and_management": 11,
+        "business_operations": 11,
+        "risk_factors": 7,
+        "disclosures_and_definitions": 6,
+        "objects_of_issue": 6,
+        "industry_information": 5,
+        "litigation": 3,
+        "company_information": 2,
+        "related_party_transactions": 1,
+        "qualitative_factors": 1
+      }
+    },
+    "maxwell_engineering": {
+      "old_key": "DRHP_Maxwell",
+      "old_section_count": 437,
+      "empty_text": 0,
+      "text_len_lt_100": 7,
+      "text_len_median": 1093,
+      "text_len_max": 94081,
+      "text_len_p95": 14263,
+      "exact_duplicate_text_records": 0,
+      "page_start_python_types": {
+        "int": 437
+      },
+      "text_found_verbatim_in_pdf_text(alnum-normalised, first 70 chars)": 350,
+      "text_not_found_in_pdf": 87,
+      "page_start_matches_a_pdf_page_where_text_occurs": 349,
+      "page_start_does_not_match": 1,
+      "most_common_pdf_page_minus_old_page_start": [
+        [
+          -2,
+          1
+        ]
+      ],
+      "heading_repeated_at_start_of_text": 5,
+      "category_counts": {
+        "legal_and_regulatory": 109,
+        "ipo_details": 73,
+        "promoters_and_management": 46,
+        "business_operations": 45,
+        "financial_statements": 36,
+        "other": 35,
+        "capital_structure": 25,
+        "financial_information": 24,
+        "objects_of_issue": 12,
+        "company_information": 8,
+        "industry_information": 8,
+        "risk_factors": 7,
+        "disclosures_and_definitions": 5,
+        "related_party_transactions": 2,
+        "qualitative_factors": 1,
+        "litigation": 1
+      }
+    },
+    "photonics_watertech": {
+      "old_key": "DRHPPHOTONICSWATERTECHLIMITED",
+      "old_section_count": 215,
+      "empty_text": 0,
+      "text_len_lt_100": 0,
+      "text_len_median": 2503,
+      "text_len_max": 111017,
+      "text_len_p95": 24987,
+      "exact_duplicate_text_records": 0,
+      "page_start_python_types": {
+        "int": 215
+      },
+      "text_found_verbatim_in_pdf_text(alnum-normalised, first 70 chars)": 180,
+      "text_not_found_in_pdf": 35,
+      "page_start_matches_a_pdf_page_where_text_occurs": 180,
+      "page_start_does_not_match": 0,
+      "most_common_pdf_page_minus_old_page_start": [],
+      "heading_repeated_at_start_of_text": 3,
+      "category_counts": {
+        "other": 39,
+        "ipo_details": 38,
+        "legal_and_regulatory": 24,
+        "business_operations": 24,
+        "promoters_and_management": 17,
+        "financial_information": 14,
+        "capital_structure": 12,
+        "financial_statements": 10,
+        "industry_information": 7,
+        "litigation": 7,
+        "disclosures_and_definitions": 6,
+        "risk_factors": 5,
+        "company_information": 5,
+        "objects_of_issue": 4,
+        "declarations": 2,
+        "related_party_transactions": 1
+      }
+    },
+    "ideas_electricals": {
+      "old_key": "Ideas_Electricals_&Engineers_DRHP_Hem_SME",
+      "old_section_count": 239,
+      "empty_text": 0,
+      "text_len_lt_100": 2,
+      "text_len_median": 1716,
+      "text_len_max": 81351,
+      "text_len_p95": 20429,
+      "exact_duplicate_text_records": 10,
+      "page_start_python_types": {
+        "int": 239
+      },
+      "text_found_verbatim_in_pdf_text(alnum-normalised, first 70 chars)": 153,
+      "text_not_found_in_pdf": 86,
+      "page_start_matches_a_pdf_page_where_text_occurs": 153,
+      "page_start_does_not_match": 0,
+      "most_common_pdf_page_minus_old_page_start": [],
+      "heading_repeated_at_start_of_text": 2,
+      "category_counts": {
+        "other": 53,
+        "legal_and_regulatory": 33,
+        "ipo_details": 30,
+        "financial_statements": 30,
+        "financial_information": 29,
+        "promoters_and_management": 13,
+        "capital_structure": 10,
+        "business_operations": 10,
+        "risk_factors": 7,
+        "disclosures_and_definitions": 6,
+        "company_information": 6,
+        "industry_information": 6,
+        "objects_of_issue": 2,
+        "litigation": 2,
+        "related_party_transactions": 1,
+        "qualitative_factors": 1
+      }
+    },
+    "axiom_gas": {
+      "old_key": "Red_Herring_Prospectus_AXIOM",
+      "old_section_count": 375,
+      "empty_text": 0,
+      "text_len_lt_100": 6,
+      "text_len_median": 1280,
+      "text_len_max": 69147,
+      "text_len_p95": 12922,
+      "exact_duplicate_text_records": 4,
+      "page_start_python_types": {
+        "int": 375
+      },
+      "text_found_verbatim_in_pdf_text(alnum-normalised, first 70 chars)": 316,
+      "text_not_found_in_pdf": 59,
+      "page_start_matches_a_pdf_page_where_text_occurs": 309,
+      "page_start_does_not_match": 7,
+      "most_common_pdf_page_minus_old_page_start": [
+        [
+          -64,
+          2
+        ],
+        [
+          -15,
+          1
+        ],
+        [
+          138,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "heading_repeated_at_start_of_text": 5,
+      "category_counts": {
+        "ipo_details": 87,
+        "other": 65,
+        "legal_and_regulatory": 50,
+        "promoters_and_management": 42,
+        "business_operations": 35,
+        "capital_structure": 23,
+        "objects_of_issue": 15,
+        "financial_information": 13,
+        "company_information": 12,
+        "risk_factors": 11,
+        "industry_information": 7,
+        "financial_statements": 5,
+        "litigation": 4,
+        "disclosures_and_definitions": 3,
+        "related_party_transactions": 2,
+        "qualitative_factors": 1
+      }
+    },
+    "quanto_agroworld": {
+      "old_key": "quanto-updated-prospectus-1646-pm-final",
+      "old_section_count": 374,
+      "empty_text": 0,
+      "text_len_lt_100": 14,
+      "text_len_median": 1005,
+      "text_len_max": 116163,
+      "text_len_p95": 10603,
+      "exact_duplicate_text_records": 0,
+      "page_start_python_types": {
+        "int": 374
+      },
+      "text_found_verbatim_in_pdf_text(alnum-normalised, first 70 chars)": 262,
+      "text_not_found_in_pdf": 112,
+      "page_start_matches_a_pdf_page_where_text_occurs": 260,
+      "page_start_does_not_match": 2,
+      "most_common_pdf_page_minus_old_page_start": [
+        [
+          62,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "heading_repeated_at_start_of_text": 2,
+      "category_counts": {
+        "other": 95,
+        "ipo_details": 59,
+        "promoters_and_management": 44,
+        "legal_and_regulatory": 40,
+        "business_operations": 34,
+        "financial_information": 29,
+        "capital_structure": 19,
+        "objects_of_issue": 12,
+        "company_information": 11,
+        "risk_factors": 7,
+        "industry_information": 6,
+        "litigation": 5,
+        "financial_statements": 5,
+        "disclosures_and_definitions": 4,
+        "related_party_transactions": 3,
+        "qualitative_factors": 1
+      }
+    }
+  },
+  "excluded_docs": {
+    "Project-Om_-RHP_with_RFS": 352,
+    "shakti-polytarp-ltd-rhp": 309
+  },
+  "global": {
+    "category_counts_all_8_docs": {
+      "ipo_details": 449,
+      "other": 433,
+      "legal_and_regulatory": 353,
+      "promoters_and_management": 254,
+      "business_operations": 212,
+      "financial_information": 200,
+      "financial_statements": 132,
+      "capital_structure": 127,
+      "objects_of_issue": 69,
+      "industry_information": 62,
+      "risk_factors": 57,
+      "company_information": 55,
+      "disclosures_and_definitions": 36,
+      "litigation": 33,
+      "related_party_transactions": 14,
+      "qualitative_factors": 7,
+      "declarations": 4
+    },
+    "categories_not_in_17": [],
+    "categories_in_17_never_used": [],
+    "task_categories_json_keys_n": 11,
+    "task_categories_missing_from_17": [
+      "declarations",
+      "disclosures_and_definitions",
+      "financial_statements",
+      "other",
+      "qualitative_factors",
+      "related_party_transactions"
+    ],
+    "headings_with_conflicting_labels": 0,
+    "headings_repeated_ge2": 414,
+    "conflict_examples": []
+  },
+  "structured_ipo_data": {
+    "century": {
+      "categories": 11,
+      "items_total": 2966,
+      "items_per_category": {
+        "company_information": 705,
+        "promoters_and_management": 527,
+        "capital_structure": 89,
+        "financial_information": 303,
+        "litigation": 72,
+        "risk_factors": 61,
+        "objects_of_issue": 82,
+        "ipo_details": 528,
+        "industry_information": 95,
+        "legal_and_regulatory": 166,
+        "business_operations": 338
+      },
+      "text_len_median": 217,
+      "text_len_max": 14451,
+      "item_key_sets": [
+        [
+          "page",
+          "source_file",
+          "text"
+        ]
+      ]
+    },
+    "maxwell_engineering": {
+      "categories": 11,
+      "items_total": 3826,
+      "items_per_category": {
+        "company_information": 831,
+        "promoters_and_management": 627,
+        "capital_structure": 92,
+        "financial_information": 347,
+        "litigation": 64,
+        "risk_factors": 71,
+        "objects_of_issue": 110,
+        "ipo_details": 610,
+        "industry_information": 128,
+        "legal_and_regulatory": 227,
+        "business_operations": 719
+      },
+      "text_len_median": 212,
+      "text_len_max": 8470,
+      "item_key_sets": [
+        [
+          "page",
+          "source_file",
+          "text"
+        ]
+      ]
+    },
+    "photonics_watertech": {
+      "categories": 11,
+      "items_total": 3744,
+      "items_per_category": {
+        "company_information": 869,
+        "promoters_and_management": 710,
+        "capital_structure": 112,
+        "financial_information": 450,
+        "litigation": 84,
+        "risk_factors": 114,
+        "objects_of_issue": 89,
+        "ipo_details": 205,
+        "industry_information": 142,
+        "legal_and_regulatory": 254,
+        "business_operations": 715
+      },
+      "text_len_median": 223,
+      "text_len_max": 8746,
+      "item_key_sets": [
+        [
+          "page",
+          "source_file",
+          "text"
+        ]
+      ]
+    },
+    "ideas_electricals": {
+      "categories": 11,
+      "items_total": 3405,
+      "items_per_category": {
+        "company_information": 704,
+        "promoters_and_management": 576,
+        "capital_structure": 90,
+        "financial_information": 384,
+        "litigation": 88,
+        "risk_factors": 86,
+        "objects_of_issue": 106,
+        "ipo_details": 545,
+        "industry_information": 107,
+        "legal_and_regulatory": 250,
+        "business_operations": 469
+      },
+      "text_len_median": 203,
+      "text_len_max": 16945,
+      "item_key_sets": [
+        [
+          "page",
+          "source_file",
+          "text"
+        ]
+      ]
+    },
+    "axiom_gas": {
+      "categories": 11,
+      "items_total": 3153,
+      "items_per_category": {
+        "company_information": 693,
+        "promoters_and_management": 609,
+        "capital_structure": 80,
+        "financial_information": 270,
+        "litigation": 68,
+        "risk_factors": 88,
+        "objects_of_issue": 69,
+        "ipo_details": 516,
+        "industry_information": 136,
+        "legal_and_regulatory": 238,
+        "business_operations": 386
+      },
+      "text_len_median": 234,
+      "text_len_max": 11688,
+      "item_key_sets": [
+        [
+          "page",
+          "source_file",
+          "text"
+        ]
+      ]
+    },
+    "quanto_agroworld": {
+      "categories": 11,
+      "items_total": 3612,
+      "items_per_category": {
+        "company_information": 894,
+        "promoters_and_management": 561,
+        "capital_structure": 80,
+        "financial_information": 255,
+        "litigation": 49,
+        "risk_factors": 105,
+        "objects_of_issue": 123,
+        "ipo_details": 481,
+        "industry_information": 168,
+        "legal_and_regulatory": 333,
+        "business_operations": 563
+      },
+      "text_len_median": 210,
+      "text_len_max": 13817,
+      "item_key_sets": [
+        [
+          "page",
+          "source_file",
+          "text"
+        ]
+      ]
+    }
+  },
+  "structured_ipo_data_category_keys": [
+    "business_operations",
+    "capital_structure",
+    "company_information",
+    "financial_information",
+    "industry_information",
+    "ipo_details",
+    "legal_and_regulatory",
+    "litigation",
+    "objects_of_issue",
+    "promoters_and_management",
+    "risk_factors"
+  ]
+}

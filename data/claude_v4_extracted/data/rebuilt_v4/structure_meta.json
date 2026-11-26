@@ -1,0 +1,66 @@
+{
+  "century": {
+    "n_pages": 303,
+    "n_header_footer_patterns": 1,
+    "hf_patterns": [
+      "Century Business Media Limited"
+    ],
+    "printed_page_found": 295,
+    "line_coverage": {
+      "covered": 18715,
+      "total": 18715
+    }
+  },
+  "photonics_watertech": {
+    "n_pages": 391,
+    "n_header_footer_patterns": 0,
+    "hf_patterns": [],
+    "printed_page_found": 337,
+    "line_coverage": {
+      "covered": 24414,
+      "total": 24414
+    }
+  },
+  "maxwell_engineering": {
+    "n_pages": 381,
+    "n_header_footer_patterns": 0,
+    "hf_patterns": [],
+    "printed_page_found": 331,
+    "line_coverage": {
+      "covered": 23293,
+      "total": 23293
+    }
+  },
+  "ideas_electricals": {
+    "n_pages": 345,
+    "n_header_footer_patterns": 1,
+    "hf_patterns": [
+      "Ideas Electricals & Engineers Limited"
+    ],
+    "printed_page_found": 318,
+    "line_coverage": {
+      "covered": 20965,
+      "total": 20965
+    }
+  },
+  "axiom_gas": {
+    "n_pages": 382,
+    "n_header_footer_patterns": 0,
+    "hf_patterns": [],
+    "printed_page_found": 330,
+    "line_coverage": {
+      "covered": 22004,
+      "total": 22004
+    }
+  },
+  "quanto_agroworld": {
+    "n_pages": 377,
+    "n_header_footer_patterns": 0,
+    "hf_patterns": [],
+    "printed_page_found": 323,
+    "line_coverage": {
+      "covered": 22357,
+      "total": 22357
+    }
+  }
+}

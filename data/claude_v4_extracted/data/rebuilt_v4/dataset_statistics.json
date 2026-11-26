@@ -1,0 +1,173 @@
+{
+  "max_input_chars_setting": 2000,
+  "master_records": 5997,
+  "master_L1": 232,
+  "master_L2": 5765,
+  "model_ready_examples": 5362,
+  "examples_per_split": {
+    "train": 3801,
+    "validation": 731,
+    "test": 830
+  },
+  "examples_per_document": {
+    "photonics_watertech": 1040,
+    "maxwell_engineering": 992,
+    "axiom_gas": 820,
+    "quanto_agroworld": 949,
+    "century": 731,
+    "ideas_electricals": 830
+  },
+  "category_counts_per_split": {
+    "train": {
+      "ipo_details": 627,
+      "risk_factors": 334,
+      "disclosures_and_definitions": 56,
+      "legal_and_regulatory": 615,
+      "promoters_and_management": 293,
+      "company_information": 175,
+      "financial_information": 321,
+      "financial_statements": 454,
+      "related_party_transactions": 38,
+      "capital_structure": 100,
+      "objects_of_issue": 143,
+      "qualitative_factors": 4,
+      "industry_information": 202,
+      "business_operations": 297,
+      "litigation": 124,
+      "declarations": 18
+    },
+    "validation": {
+      "ipo_details": 153,
+      "risk_factors": 71,
+      "disclosures_and_definitions": 12,
+      "legal_and_regulatory": 89,
+      "promoters_and_management": 66,
+      "company_information": 39,
+      "financial_information": 59,
+      "financial_statements": 98,
+      "related_party_transactions": 10,
+      "capital_structure": 19,
+      "objects_of_issue": 20,
+      "qualitative_factors": 1,
+      "industry_information": 18,
+      "business_operations": 32,
+      "litigation": 43,
+      "declarations": 1
+    },
+    "test": {
+      "ipo_details": 147,
+      "risk_factors": 83,
+      "disclosures_and_definitions": 13,
+      "legal_and_regulatory": 143,
+      "promoters_and_management": 60,
+      "company_information": 43,
+      "financial_information": 78,
+      "financial_statements": 145,
+      "related_party_transactions": 8,
+      "capital_structure": 19,
+      "objects_of_issue": 17,
+      "qualitative_factors": 1,
+      "industry_information": 23,
+      "business_operations": 37,
+      "litigation": 12,
+      "declarations": 1
+    }
+  },
+  "categories_absent_per_split": {
+    "train": [
+      "other"
+    ],
+    "validation": [
+      "other"
+    ],
+    "test": [
+      "other"
+    ]
+  },
+  "categories_with_fewer_than_5_examples_per_split": {
+    "train": [
+      "qualitative_factors"
+    ],
+    "validation": [
+      "declarations",
+      "qualitative_factors"
+    ],
+    "test": [
+      "declarations",
+      "qualitative_factors"
+    ]
+  },
+  "master_review_status_counts": {
+    "excluded_structural": 49,
+    "needs_review": 5879,
+    "ambiguous": 67,
+    "extraction_error": 2
+  },
+  "master_category_counts_L2": {
+    "null": 97,
+    "disclosures_and_definitions": 81,
+    "risk_factors": 497,
+    "litigation": 205,
+    "ipo_details": 984,
+    "financial_information": 473,
+    "related_party_transactions": 60,
+    "company_information": 259,
+    "promoters_and_management": 433,
+    "capital_structure": 142,
+    "objects_of_issue": 198,
+    "qualitative_factors": 6,
+    "legal_and_regulatory": 920,
+    "industry_information": 258,
+    "business_operations": 405,
+    "financial_statements": 727,
+    "declarations": 20
+  },
+  "exclusion_reason_counts_master_L2_records": {
+    "heading_only_category_conflict_with_next_section": 7,
+    "heading_only_not_merged_neighbour_excluded": 3,
+    "ambiguous_label": 60,
+    "structural_front_matter_or_contents": 37,
+    "scanned_insert_unreliable_text": 1,
+    "image_only_page_no_text": 8
+  },
+  "n_master_L2_records_excluded_or_merged_away": 115,
+  "n_heading_only_records_merged": 288,
+  "n_examples_with_merged_heading_only": 248,
+  "input_truncation": {
+    "examples_truncated": 937,
+    "share": 0.175,
+    "excerpt_chars_median": 709,
+    "excerpt_chars_max": 2000,
+    "full_chars_median": 709,
+    "full_chars_p95": 4732,
+    "full_chars_max": 159264
+  },
+  "headings_truncated_in_prompt": 36,
+  "max_heading_chars_setting": 300,
+  "heading_equals_chapter_title_share": 0.04,
+  "label_confidence_tier_counts": {
+    "rule_chapter": 4565,
+    "rule_heading_keyword": 239,
+    "rule_chapter_overlap": 558
+  },
+  "label_basis_counts": {
+    "inherited_from_chapter_rule": 5123,
+    "heading_keyword_override": 45,
+    "heading_keyword_in_multi_topic_chapter": 194
+  },
+  "duplicates": {
+    "near_or_exact_pairs_jaccard_ge_0.8": 483,
+    "exact_text_pairs": 260,
+    "same_document_pairs": 153,
+    "cross_split_pairs": 233,
+    "cross_split_pairs_with_label_conflict": 0,
+    "validation_examples_with_a_near_duplicate_in_train": 56,
+    "test_examples_with_a_near_duplicate_in_train": 46,
+    "method": "MinHash LSH (64 perms) candidates, confirmed with exact Jaccard on 5-word shingles >= 0.8; sections with <8 shingles skipped"
+  },
+  "tokenizer_audit": {
+    "status": "NOT_RUN",
+    "reason": "target model/tokenizer not provided and not available offline; scripts/14_audit_tokenizer.py is provided for local use"
+  },
+  "labels": "PROVISIONAL rule-derived; zero records are human-verified"
+}

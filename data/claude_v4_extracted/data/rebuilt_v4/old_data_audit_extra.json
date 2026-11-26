@@ -1,0 +1,283 @@
+{
+  "other_label": {
+    "n_other_in_6_docs": 300,
+    "n_sections_6_docs": 1836,
+    "heading_le3_words_or_split_letter_pattern": 217,
+    "sample_headings": [
+      "NATURE OF",
+      "AUDITORS OBSERVATIONS",
+      "MR. URVISH VINODCHANDRA JARDOSH",
+      "PROVISIONS APPLICABLE TO ANY OTHER SECURITIES",
+      "QUANT AGRJ",
+      "SANGEETA",
+      "TATA AIG",
+      "OUR STRATEGIES: -",
+      "RAKESH AGARWAL",
+      "IDEAS ELECTRICALS &",
+      "UDYAM",
+      "NATURE OF",
+      "ENGINEERS PRIV ATE",
+      "OPERATING ACTIVITIES"
+    ]
+  },
+  "artifact_strings": {
+    "PRIV ATE": {
+      "occurrences_in_old_sections_json": 25,
+      "occurrences_in_pdf_text_layer": 0
+    },
+    "V ALID": {
+      "occurrences_in_old_sections_json": 9,
+      "occurrences_in_pdf_text_layer": 0
+    },
+    "QUANT AGRJ": {
+      "occurrences_in_old_sections_json": 2,
+      "occurrences_in_pdf_text_layer": 0
+    },
+    "TATA AIG": {
+      "occurrences_in_old_sections_json": 8,
+      "occurrences_in_pdf_text_layer": 0
+    }
+  },
+  "old_text_not_found_verbatim_bag_of_words_overlap_with_claimed_page": {
+    "token_overlap>=0.9": 421,
+    "<0.6": 2,
+    "0.6-0.9": 2
+  },
+  "century_risk_factor_chapter_old_sections": [
+    {
+      "heading": "RISK FACTORS",
+      "category": "risk_factors",
+      "chars": 3843,
+      "page_start": 23
+    },
+    {
+      "heading": "INTERNAL RISK FACTORS",
+      "category": "risk_factors",
+      "chars": 103289,
+      "page_start": 23
+    },
+    {
+      "heading": "EXTERNAL RISK FACTORS",
+      "category": "risk_factors",
+      "chars": 14538,
+      "page_start": 43
+    },
+    {
+      "heading": "THE ISSUE",
+      "category": "ipo_details",
+      "chars": 8253,
+      "page_start": 46
+    }
+  ],
+  "old_section_size": {
+    "n": 1836,
+    "gt_20k_chars": 62,
+    "gt_50k_chars": 16
+  },
+  "top_headings_for_labels": {
+    "ipo_details": [
+      [
+        "THE ISSUE",
+        13
+      ],
+      [
+        "FRESH ISSUE",
+        7
+      ],
+      [
+        "REGISTRAR TO THE ISSUE",
+        6
+      ],
+      [
+        "WITHDRAWAL OF THE ISSUE",
+        6
+      ],
+      [
+        "BASIS OF ALLOTMENT",
+        6
+      ],
+      [
+        "ISSUER’S ABSOLUTE RESPONSIBILITY",
+        6
+      ],
+      [
+        "DETAILS OF THE ISSUE",
+        5
+      ],
+      [
+        "BOOK RUNNING LEAD MANAGER TO THE ISSUE",
+        5
+      ]
+    ],
+    "legal_and_regulatory": [
+      [
+        "DIVIDEND POLICY",
+        6
+      ],
+      [
+        "MATERIAL CONTRACTS AND DOCUMENTS FOR INSPECTION",
+        6
+      ],
+      [
+        "OTHER CONFIRMATIONS",
+        6
+      ],
+      [
+        "RESTRICTIONS ON FOREIGN OWNERSHIP OF INDIAN SECURI",
+        5
+      ],
+      [
+        "GENERAL MEETINGS",
+        5
+      ],
+      [
+        "WINDING UP",
+        5
+      ],
+      [
+        "CALLS ON SHARES",
+        4
+      ],
+      [
+        "TRANSFER OF SHARES",
+        4
+      ]
+    ],
+    "risk_factors": [
+      [
+        "GENERAL RISKS",
+        12
+      ],
+      [
+        "RISK IN RELATION TO THE FIRST ISSUE",
+        11
+      ],
+      [
+        "EXTERNAL RISK FACTORS",
+        6
+      ],
+      [
+        "INTERNAL RISK FACTORS",
+        4
+      ],
+      [
+        "RISK FACTORS",
+        2
+      ],
+      [
+        "SECTION II – RISK FACTORS",
+        2
+      ],
+      [
+        "SECTION II - RISK FACTORS",
+        1
+      ],
+      [
+        "RISKS IN RELATION TO THE FIRST OFFER",
+        1
+      ]
+    ],
+    "financial_information": [
+      [
+        "RESTATED CASH FLOW STATEMENT",
+        5
+      ],
+      [
+        "RESTATED STATEMENT OF ASSETS AND LIABILITIES",
+        4
+      ],
+      [
+        "RESTATED STATEMENT OF PROFIT AND LOSS",
+        4
+      ],
+      [
+        "QUANTITATIVE FACTORS",
+        4
+      ],
+      [
+        "OTHER FINANCIAL INFORMATION",
+        4
+      ],
+      [
+        "STOCK MARKET DATA FOR OUR EQUITY SHARES",
+        4
+      ],
+      [
+        "REVALUATION OF ASSETS",
+        4
+      ],
+      [
+        "SUMMARY OF FINANCIAL INFORMATION",
+        4
+      ]
+    ]
+  },
+  "structured_ipo_data": {
+    "century": {
+      "items": 2966,
+      "unique_texts": 2552,
+      "texts_repeated": 381,
+      "has_heading_field": false,
+      "item_keys": [
+        "page",
+        "source_file",
+        "text"
+      ]
+    },
+    "maxwell_engineering": {
+      "items": 3826,
+      "unique_texts": 3285,
+      "texts_repeated": 492,
+      "has_heading_field": false,
+      "item_keys": [
+        "page",
+        "source_file",
+        "text"
+      ]
+    },
+    "photonics_watertech": {
+      "items": 3744,
+      "unique_texts": 3251,
+      "texts_repeated": 453,
+      "has_heading_field": false,
+      "item_keys": [
+        "page",
+        "source_file",
+        "text"
+      ]
+    },
+    "ideas_electricals": {
+      "items": 3405,
+      "unique_texts": 2907,
+      "texts_repeated": 461,
+      "has_heading_field": false,
+      "item_keys": [
+        "page",
+        "source_file",
+        "text"
+      ]
+    },
+    "axiom_gas": {
+      "items": 3153,
+      "unique_texts": 2704,
+      "texts_repeated": 401,
+      "has_heading_field": false,
+      "item_keys": [
+        "page",
+        "source_file",
+        "text"
+      ]
+    },
+    "quanto_agroworld": {
+      "items": 3612,
+      "unique_texts": 3074,
+      "texts_repeated": 483,
+      "has_heading_field": false,
+      "item_keys": [
+        "page",
+        "source_file",
+        "text"
+      ]
+    }
+  }
+}

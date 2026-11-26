@@ -1,0 +1,156 @@
+{
+  "timestamp_iso": "2026-11-26T11:50:56Z",
+  "power_and_battery_status": {
+    "active_power_plan": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+    "battery_info": "UNKNOWN"
+  },
+  "runs": [
+    {
+      "run_name": "1024_run1",
+      "max_seq_length": 1024,
+      "warmup_step_seconds": 20.675,
+      "timed_step_count": 6,
+      "timed_step_times": [
+        5.338,
+        1.086,
+        1.253,
+        1.144,
+        1.246,
+        1.093
+      ],
+      "mean_step_time_seconds": 1.86,
+      "min_step_time_seconds": 1.086,
+      "max_step_time_seconds": 5.338,
+      "gpu_hardware": {
+        "record_count": 39,
+        "temp_c_min": 51.0,
+        "temp_c_max": 66.0,
+        "temp_c_mean": 55.0,
+        "power_w_min": 1.6,
+        "power_w_max": 48.93,
+        "power_w_mean": 14.5,
+        "sm_clock_min": 210.0,
+        "sm_clock_max": 2640.0,
+        "sm_clock_mean": 1221.5,
+        "mem_clock_mean": 4044.6,
+        "throttle_reasons_observed": [
+          "0x0000000000000000",
+          "0x0000000000000001"
+        ],
+        "throttling_active": true
+      }
+    },
+    {
+      "run_name": "1536_run1",
+      "max_seq_length": 1536,
+      "warmup_step_seconds": 2.343,
+      "timed_step_count": 6,
+      "timed_step_times": [
+        1.381,
+        1.396,
+        1.434,
+        1.41,
+        1.445,
+        1.39
+      ],
+      "mean_step_time_seconds": 1.409,
+      "min_step_time_seconds": 1.381,
+      "max_step_time_seconds": 1.445,
+      "gpu_hardware": {
+        "record_count": 20,
+        "temp_c_min": 57.0,
+        "temp_c_max": 71.0,
+        "temp_c_mean": 62.5,
+        "power_w_min": 1.69,
+        "power_w_max": 61.2,
+        "power_w_mean": 29.3,
+        "sm_clock_min": 210.0,
+        "sm_clock_max": 2625.0,
+        "sm_clock_mean": 1442.2,
+        "mem_clock_mean": 4782.9,
+        "throttle_reasons_observed": [
+          "0x0000000000000000",
+          "0x0000000000000001",
+          "0x0000000000000004"
+        ],
+        "throttling_active": true
+      }
+    },
+    {
+      "run_name": "1024_run2",
+      "max_seq_length": 1024,
+      "warmup_step_seconds": 2.077,
+      "timed_step_count": 6,
+      "timed_step_times": [
+        1.251,
+        1.197,
+        1.249,
+        1.333,
+        1.264,
+        1.358
+      ],
+      "mean_step_time_seconds": 1.275,
+      "min_step_time_seconds": 1.197,
+      "max_step_time_seconds": 1.358,
+      "gpu_hardware": {
+        "record_count": 20,
+        "temp_c_min": 59.0,
+        "temp_c_max": 70.0,
+        "temp_c_mean": 63.0,
+        "power_w_min": 1.69,
+        "power_w_max": 47.53,
+        "power_w_mean": 20.8,
+        "sm_clock_min": 210.0,
+        "sm_clock_max": 2625.0,
+        "sm_clock_mean": 1294.5,
+        "mem_clock_mean": 4682.9,
+        "throttle_reasons_observed": [
+          "0x0000000000000000",
+          "0x0000000000000001"
+        ],
+        "throttling_active": true
+      }
+    },
+    {
+      "run_name": "1536_run2",
+      "max_seq_length": 1536,
+      "warmup_step_seconds": 1.778,
+      "timed_step_count": 6,
+      "timed_step_times": [
+        1.367,
+        1.411,
+        1.477,
+        1.504,
+        1.427,
+        1.42
+      ],
+      "mean_step_time_seconds": 1.434,
+      "min_step_time_seconds": 1.367,
+      "max_step_time_seconds": 1.504,
+      "gpu_hardware": {
+        "record_count": 20,
+        "temp_c_min": 60.0,
+        "temp_c_max": 75.0,
+        "temp_c_mean": 65.8,
+        "power_w_min": 1.71,
+        "power_w_max": 61.18,
+        "power_w_mean": 28.7,
+        "sm_clock_min": 210.0,
+        "sm_clock_max": 2625.0,
+        "sm_clock_mean": 1488.8,
+        "mem_clock_mean": 4782.9,
+        "throttle_reasons_observed": [
+          "0x0000000000000000",
+          "0x0000000000000001",
+          "0x0000000000000004"
+        ],
+        "throttling_active": true
+      }
+    }
+  ],
+  "summary_comparison": {
+    "cap_1024_mean_step_seconds": 1.567,
+    "cap_1536_mean_step_seconds": 1.421,
+    "projected_3_epoch_hours_at_1024": 4.945
+  }
+}

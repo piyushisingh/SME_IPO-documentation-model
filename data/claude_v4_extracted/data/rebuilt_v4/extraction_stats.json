@@ -1,0 +1,879 @@
+{
+  "century": {
+    "source_filename": "Century.pdf",
+    "sha256": "be30612c31cf5327d31d7a6547e3ba07be3e066a180493a3920425f28db16dd8",
+    "company_name": "Century Business Media Limited",
+    "parts": [
+      {
+        "part": "main",
+        "document_type": "RHP",
+        "doc_date": "2026-09-05",
+        "pdf_start": 1,
+        "pdf_end": 303
+      }
+    ],
+    "pdf_pages": 303,
+    "pages_with_text_layer": 303,
+    "printed_page_numbers_recovered": 295,
+    "header_footer_patterns_detected": 1,
+    "L1_total": 38,
+    "L1_body_chapters_excluding_cover_and_toc": 36,
+    "L2_total": 777,
+    "L2_median_chars": 853,
+    "L2_p95_chars": 6275,
+    "L2_max_chars": 54366,
+    "L2_flag_counts": {
+      "table_heavy_check_structure": 64,
+      "heading_only": 38,
+      "tiny_section": 83,
+      "very_long_section_not_split": 4,
+      "chapter_has_no_internal_headings_detected": 1
+    },
+    "L1_flag_counts": {
+      "front_matter": 1,
+      "very_long_section_not_split": 20,
+      "contents_page": 1,
+      "start_moved_up_to_section_divider": 6,
+      "table_heavy_check_structure": 2,
+      "anchor_by_printed_page_only_heading_not_found": 2
+    },
+    "image_only_pages": [],
+    "full_page_image_with_text_layer_pages": [],
+    "ocr_pages_run": 0,
+    "ocr_mean_conf_over_pages": null,
+    "ocr_pages_conf_lt_60": [],
+    "char_artifacts": {
+      "ligature_chars": 0,
+      "cid_patterns": 0,
+      "mojibake_patterns": 0,
+      "soft_hyphens": 0,
+      "control_chars": 0,
+      "replacement_chars_U+FFFD": 0,
+      "pua_pages": [],
+      "kerning_split_word_candidates_total": 12,
+      "kerning_split_top": [
+        [
+          "S DISCUSSION",
+          2
+        ],
+        [
+          "A WIDELY",
+          1
+        ],
+        [
+          "A SEBI",
+          1
+        ],
+        [
+          "S EXAMINATION",
+          1
+        ],
+        [
+          "J MAT",
+          1
+        ],
+        [
+          "A MATERIAL",
+          1
+        ]
+      ]
+    },
+    "conservation": {
+      "nonws_chars_pages": 912873,
+      "nonws_chars_L1_raw": 912873,
+      "nonws_chars_L2_raw": 912873,
+      "L1_equals_pages": true,
+      "L2_equals_pages": true,
+      "pages_not_in_any_L1": [],
+      "duplicate_example_ids": 0,
+      "company_names_in_doc": [
+        "Century Business Media Limited"
+      ],
+      "source_files_in_doc": [
+        "Century.pdf"
+      ]
+    },
+    "risk_factor_numbering": {
+      "chapter_example_id": "century-L1-006",
+      "pdf_pages": "23-46",
+      "L2_in_chapter": 77,
+      "numbered_risk_headings_detected": 66,
+      "distinct": 66,
+      "max_number": 73,
+      "numbers_missing_from_1_to_max": 7,
+      "sample_missing": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        10
+      ]
+    },
+    "toc": {
+      "toc_entries_parsed_total": 36,
+      "toc_entries_unresolved": 0,
+      "anchoring": {
+        "anchored_on_TOC_page": 34,
+        "anchored_by_forward_scan": 0,
+        "anchored_by_printed_page_only": 2
+      },
+      "toc_vs_body_page_discrepancies": []
+    },
+    "boundary_integrity": {
+      "toc_leak_sections": [],
+      "toc_anchored_chapters_whose_first_8_lines_lack_the_heading": [
+        {
+          "example_id": "century-L1-031",
+          "heading": "OTHER REGULATORY AND STATUTORY DISCLOSURES",
+          "pdf_page": 231,
+          "first_lines": [
+            "OTHER REGULATORY AND STATUTORY APPROVALS",
+            "AUTHORITY FOR THE ISSUE",
+            "Corporate Approvals"
+          ],
+          "flags": [
+            "anchor_by_printed_page_only_heading_not_found",
+            "very_long_section_not_split"
+          ]
+        }
+      ]
+    }
+  },
+  "photonics_watertech": {
+    "source_filename": "DRHPPHOTONICSWATERTECHLIMITED.pdf",
+    "sha256": "a94f3f03b6617f566ed1c6e3ac2ecb49e9a75a29de0873f8224e166fe4edb72e",
+    "company_name": "Photonics Watertech Limited",
+    "parts": [
+      {
+        "part": "main",
+        "document_type": "DRHP",
+        "doc_date": "2026-06-30",
+        "pdf_start": 1,
+        "pdf_end": 391
+      }
+    ],
+    "pdf_pages": 391,
+    "pages_with_text_layer": 391,
+    "printed_page_numbers_recovered": 337,
+    "header_footer_patterns_detected": 0,
+    "L1_total": 39,
+    "L1_body_chapters_excluding_cover_and_toc": 37,
+    "L2_total": 1104,
+    "L2_median_chars": 787,
+    "L2_p95_chars": 5550,
+    "L2_max_chars": 71787,
+    "L2_flag_counts": {
+      "tiny_section": 115,
+      "very_long_section_not_split": 4,
+      "table_heavy_check_structure": 138,
+      "heading_only": 52,
+      "contains_scanned_page_with_embedded_ocr_layer": 2,
+      "contains_image_only_page": 2
+    },
+    "L1_flag_counts": {
+      "front_matter": 1,
+      "very_long_section_not_split": 21,
+      "contents_page": 1,
+      "start_moved_up_to_section_divider": 9,
+      "anchor_by_forward_scan": 1,
+      "table_heavy_check_structure": 3,
+      "contains_scanned_page_with_embedded_ocr_layer": 1,
+      "contains_image_only_page": 1
+    },
+    "image_only_pages": [
+      223
+    ],
+    "full_page_image_with_text_layer_pages": [
+      157
+    ],
+    "ocr_pages_run": 2,
+    "ocr_mean_conf_over_pages": 83.7,
+    "ocr_pages_conf_lt_60": [],
+    "char_artifacts": {
+      "ligature_chars": 0,
+      "cid_patterns": 0,
+      "mojibake_patterns": 0,
+      "soft_hyphens": 0,
+      "control_chars": 0,
+      "replacement_chars_U+FFFD": 0,
+      "pua_pages": [],
+      "kerning_split_word_candidates_total": 11,
+      "kerning_split_top": [
+        [
+          "V PATEL",
+          4
+        ],
+        [
+          "S AND",
+          2
+        ],
+        [
+          "A PRICE",
+          1
+        ],
+        [
+          "A SHARE",
+          1
+        ],
+        [
+          "A FRESH",
+          1
+        ],
+        [
+          "A GUJARATI",
+          1
+        ]
+      ]
+    },
+    "conservation": {
+      "nonws_chars_pages": 1126168,
+      "nonws_chars_L1_raw": 1126168,
+      "nonws_chars_L2_raw": 1126168,
+      "L1_equals_pages": true,
+      "L2_equals_pages": true,
+      "pages_not_in_any_L1": [],
+      "duplicate_example_ids": 0,
+      "company_names_in_doc": [
+        "Photonics Watertech Limited"
+      ],
+      "source_files_in_doc": [
+        "DRHPPHOTONICSWATERTECHLIMITED.pdf"
+      ]
+    },
+    "risk_factor_numbering": {
+      "chapter_example_id": "photonics_watertech-L1-006",
+      "pdf_pages": "26-61",
+      "L2_in_chapter": 95,
+      "numbered_risk_headings_detected": 73,
+      "distinct": 73,
+      "max_number": 86,
+      "numbers_missing_from_1_to_max": 13,
+      "sample_missing": [
+        1,
+        7,
+        8,
+        9,
+        15,
+        25,
+        30,
+        36,
+        37,
+        44,
+        59,
+        76
+      ]
+    },
+    "toc": {
+      "toc_entries_parsed_total": 37,
+      "toc_entries_unresolved": 0,
+      "anchoring": {
+        "anchored_on_TOC_page": 36,
+        "anchored_by_forward_scan": 1,
+        "anchored_by_printed_page_only": 0
+      },
+      "toc_vs_body_page_discrepancies": []
+    },
+    "boundary_integrity": {
+      "toc_leak_sections": [],
+      "toc_anchored_chapters_whose_first_8_lines_lack_the_heading": []
+    }
+  },
+  "maxwell_engineering": {
+    "source_filename": "DRHP_Maxwell.pdf",
+    "sha256": "fb1f4790342ce215dbeed26113f4d7ba8094b0a6318acfc42c52f2a59ce9b985",
+    "company_name": "Maxwell Engineering Solutions Limited",
+    "parts": [
+      {
+        "part": "main",
+        "document_type": "DRHP",
+        "doc_date": "2026-08-15",
+        "pdf_start": 1,
+        "pdf_end": 381
+      }
+    ],
+    "pdf_pages": 381,
+    "pages_with_text_layer": 381,
+    "printed_page_numbers_recovered": 331,
+    "header_footer_patterns_detected": 0,
+    "L1_total": 38,
+    "L1_body_chapters_excluding_cover_and_toc": 36,
+    "L2_total": 1054,
+    "L2_median_chars": 869,
+    "L2_p95_chars": 6167,
+    "L2_max_chars": 56362,
+    "L2_flag_counts": {
+      "contains_image_only_page": 4,
+      "heading_only": 46,
+      "tiny_section": 83,
+      "very_long_section_not_split": 4,
+      "table_heavy_check_structure": 124,
+      "ocr_low_confidence_pages_present": 2
+    },
+    "L1_flag_counts": {
+      "contains_image_only_page": 2,
+      "front_matter": 1,
+      "very_long_section_not_split": 20,
+      "contents_page": 1,
+      "start_moved_up_to_section_divider": 8,
+      "table_heavy_check_structure": 4,
+      "ocr_low_confidence_pages_present": 1
+    },
+    "image_only_pages": [
+      2,
+      4,
+      173
+    ],
+    "full_page_image_with_text_layer_pages": [],
+    "ocr_pages_run": 3,
+    "ocr_mean_conf_over_pages": 75.0,
+    "ocr_pages_conf_lt_60": [
+      173
+    ],
+    "char_artifacts": {
+      "ligature_chars": 0,
+      "cid_patterns": 0,
+      "mojibake_patterns": 0,
+      "soft_hyphens": 0,
+      "control_chars": 0,
+      "replacement_chars_U+FFFD": 0,
+      "pua_pages": [],
+      "kerning_split_word_candidates_total": 31,
+      "kerning_split_top": [
+        [
+          "A PRICE",
+          3
+        ],
+        [
+          "A SHARE",
+          3
+        ],
+        [
+          "S ABSOLUTE",
+          2
+        ],
+        [
+          "I AIF",
+          2
+        ],
+        [
+          "S LIEN",
+          2
+        ],
+        [
+          "A MEMBER",
+          2
+        ]
+      ]
+    },
+    "conservation": {
+      "nonws_chars_pages": 1182230,
+      "nonws_chars_L1_raw": 1182230,
+      "nonws_chars_L2_raw": 1182230,
+      "L1_equals_pages": true,
+      "L2_equals_pages": true,
+      "pages_not_in_any_L1": [],
+      "duplicate_example_ids": 0,
+      "company_names_in_doc": [
+        "Maxwell Engineering Solutions Limited"
+      ],
+      "source_files_in_doc": [
+        "DRHP_Maxwell.pdf"
+      ]
+    },
+    "risk_factor_numbering": {
+      "chapter_example_id": "maxwell_engineering-L1-006",
+      "pdf_pages": "25-53",
+      "L2_in_chapter": 86,
+      "numbered_risk_headings_detected": 71,
+      "distinct": 71,
+      "max_number": 76,
+      "numbers_missing_from_1_to_max": 5,
+      "sample_missing": [
+        5,
+        6,
+        8,
+        9,
+        75
+      ]
+    },
+    "toc": {
+      "toc_entries_parsed_total": 36,
+      "toc_entries_unresolved": 0,
+      "anchoring": {
+        "anchored_on_TOC_page": 36,
+        "anchored_by_forward_scan": 0,
+        "anchored_by_printed_page_only": 0
+      },
+      "toc_vs_body_page_discrepancies": []
+    },
+    "boundary_integrity": {
+      "toc_leak_sections": [],
+      "toc_anchored_chapters_whose_first_8_lines_lack_the_heading": []
+    }
+  },
+  "ideas_electricals": {
+    "source_filename": "Ideas_Electricals__Engineers_DRHP_Hem_SME.pdf",
+    "sha256": "1c2f6d53b3dba92da2facc3adfa4d6ee205dbfa4401ea734527920e96f5f9360",
+    "company_name": "Ideas Electricals & Engineers Limited",
+    "parts": [
+      {
+        "part": "main",
+        "document_type": "DRHP",
+        "doc_date": "2026-09-02",
+        "pdf_start": 1,
+        "pdf_end": 345
+      }
+    ],
+    "pdf_pages": 345,
+    "pages_with_text_layer": 345,
+    "printed_page_numbers_recovered": 318,
+    "header_footer_patterns_detected": 1,
+    "L1_total": 38,
+    "L1_body_chapters_excluding_cover_and_toc": 36,
+    "L2_total": 885,
+    "L2_median_chars": 855,
+    "L2_p95_chars": 7023,
+    "L2_max_chars": 59819,
+    "L2_flag_counts": {
+      "tiny_section": 71,
+      "table_heavy_check_structure": 104,
+      "heading_only": 43,
+      "very_long_section_not_split": 4,
+      "contains_private_use_glyphs": 1
+    },
+    "L1_flag_counts": {
+      "front_matter": 1,
+      "very_long_section_not_split": 21,
+      "contents_page": 1,
+      "table_heavy_check_structure": 4,
+      "anchor_by_forward_scan": 3,
+      "start_moved_up_to_section_divider": 6,
+      "contains_private_use_glyphs": 1
+    },
+    "image_only_pages": [],
+    "full_page_image_with_text_layer_pages": [],
+    "ocr_pages_run": 0,
+    "ocr_mean_conf_over_pages": null,
+    "ocr_pages_conf_lt_60": [],
+    "char_artifacts": {
+      "ligature_chars": 0,
+      "cid_patterns": 0,
+      "mojibake_patterns": 0,
+      "soft_hyphens": 0,
+      "control_chars": 0,
+      "replacement_chars_U+FFFD": 0,
+      "pua_chars": 4,
+      "pua_pages": [
+        121,
+        122,
+        123
+      ],
+      "kerning_split_word_candidates_total": 15,
+      "kerning_split_top": [
+        [
+          "S DISCUSSION",
+          2
+        ],
+        [
+          "A PRE",
+          1
+        ],
+        [
+          "A PRICE",
+          1
+        ],
+        [
+          "A WIDELY",
+          1
+        ],
+        [
+          "A SEBI",
+          1
+        ],
+        [
+          "S EXAMINATION",
+          1
+        ]
+      ]
+    },
+    "conservation": {
+      "nonws_chars_pages": 1077824,
+      "nonws_chars_L1_raw": 1077824,
+      "nonws_chars_L2_raw": 1077824,
+      "L1_equals_pages": true,
+      "L2_equals_pages": true,
+      "pages_not_in_any_L1": [],
+      "duplicate_example_ids": 0,
+      "company_names_in_doc": [
+        "Ideas Electricals & Engineers Limited"
+      ],
+      "source_files_in_doc": [
+        "Ideas_Electricals__Engineers_DRHP_Hem_SME.pdf"
+      ]
+    },
+    "risk_factor_numbering": {
+      "chapter_example_id": "ideas_electricals-L1-006",
+      "pdf_pages": "24-52",
+      "L2_in_chapter": 84,
+      "numbered_risk_headings_detected": 69,
+      "distinct": 69,
+      "max_number": 78,
+      "numbers_missing_from_1_to_max": 9,
+      "sample_missing": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "toc": {
+      "toc_entries_parsed_total": 36,
+      "toc_entries_unresolved": 0,
+      "anchoring": {
+        "anchored_on_TOC_page": 33,
+        "anchored_by_forward_scan": 3,
+        "anchored_by_printed_page_only": 0
+      },
+      "toc_vs_body_page_discrepancies": []
+    },
+    "boundary_integrity": {
+      "toc_leak_sections": [],
+      "toc_anchored_chapters_whose_first_8_lines_lack_the_heading": []
+    }
+  },
+  "axiom_gas": {
+    "source_filename": "Red_Herring_Prospectus_AXIOM.pdf",
+    "sha256": "0d27c154659eb27e2d398946ceff8fdc597347d00110bb6ea9416cf653bfa570",
+    "company_name": "Axiom Gas Engineering Limited",
+    "parts": [
+      {
+        "part": "abridged",
+        "document_type": "ABRIDGED_PROSPECTUS",
+        "doc_date": "2026-09-04",
+        "pdf_start": 1,
+        "pdf_end": 13
+      },
+      {
+        "part": "rhp",
+        "document_type": "RHP",
+        "doc_date": "2026-09-04",
+        "pdf_start": 14,
+        "pdf_end": 382
+      }
+    ],
+    "pdf_pages": 382,
+    "pages_with_text_layer": 382,
+    "printed_page_numbers_recovered": 330,
+    "header_footer_patterns_detected": 0,
+    "L1_total": 39,
+    "L1_body_chapters_excluding_cover_and_toc": 37,
+    "L2_total": 914,
+    "L2_median_chars": 740,
+    "L2_p95_chars": 5531,
+    "L2_max_chars": 159518,
+    "L2_flag_counts": {
+      "table_heavy_check_structure": 111,
+      "tiny_section": 136,
+      "heading_only": 69,
+      "very_long_section_not_split": 5,
+      "chapter_has_no_internal_headings_detected": 1
+    },
+    "L1_flag_counts": {
+      "scope_abridged_prospectus": 1,
+      "very_long_section_not_split": 21,
+      "front_matter": 1,
+      "contents_page": 1,
+      "start_moved_up_to_section_divider": 8,
+      "table_heavy_check_structure": 4
+    },
+    "image_only_pages": [],
+    "full_page_image_with_text_layer_pages": [],
+    "ocr_pages_run": 0,
+    "ocr_mean_conf_over_pages": null,
+    "ocr_pages_conf_lt_60": [],
+    "char_artifacts": {
+      "ligature_chars": 0,
+      "cid_patterns": 0,
+      "mojibake_patterns": 0,
+      "soft_hyphens": 0,
+      "control_chars": 0,
+      "replacement_chars_U+FFFD": 0,
+      "pua_pages": [],
+      "kerning_split_word_candidates_total": 33,
+      "kerning_split_top": [
+        [
+          "S ABSOLUTE",
+          3
+        ],
+        [
+          "A WIDELY",
+          2
+        ],
+        [
+          "S DISCUSSION",
+          2
+        ],
+        [
+          "R PATIL",
+          2
+        ],
+        [
+          "I AIF",
+          2
+        ],
+        [
+          "A PUBLIC",
+          1
+        ]
+      ]
+    },
+    "conservation": {
+      "nonws_chars_pages": 1047958,
+      "nonws_chars_L1_raw": 1047958,
+      "nonws_chars_L2_raw": 1047958,
+      "L1_equals_pages": true,
+      "L2_equals_pages": true,
+      "pages_not_in_any_L1": [],
+      "duplicate_example_ids": 0,
+      "company_names_in_doc": [
+        "Axiom Gas Engineering Limited"
+      ],
+      "source_files_in_doc": [
+        "Red_Herring_Prospectus_AXIOM.pdf"
+      ]
+    },
+    "risk_factor_numbering": {
+      "chapter_example_id": "axiom_gas-L1-009",
+      "pdf_pages": "35-58",
+      "L2_in_chapter": 74,
+      "numbered_risk_headings_detected": 65,
+      "distinct": 65,
+      "max_number": 74,
+      "numbers_missing_from_1_to_max": 9,
+      "sample_missing": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        40
+      ]
+    },
+    "toc": {
+      "toc_entries_parsed_total": 36,
+      "toc_entries_unresolved": 0,
+      "anchoring": {
+        "anchored_on_TOC_page": 36,
+        "anchored_by_forward_scan": 0,
+        "anchored_by_printed_page_only": 0
+      },
+      "toc_vs_body_page_discrepancies": []
+    },
+    "boundary_integrity": {
+      "toc_leak_sections": [],
+      "toc_anchored_chapters_whose_first_8_lines_lack_the_heading": []
+    }
+  },
+  "quanto_agroworld": {
+    "source_filename": "quanto-updated-prospectus-1646-pm-final.pdf",
+    "sha256": "49311506bb920f208aef719ddcbdf2692ef46de1658549f4f15ca5fc45bcc006",
+    "company_name": "Quanto Agroworld Limited",
+    "parts": [
+      {
+        "part": "main",
+        "document_type": "FINAL_PROSPECTUS_FIXED_PRICE",
+        "doc_date": "2026-09-08",
+        "pdf_start": 1,
+        "pdf_end": 377
+      }
+    ],
+    "pdf_pages": 377,
+    "pages_with_text_layer": 377,
+    "printed_page_numbers_recovered": 323,
+    "header_footer_patterns_detected": 0,
+    "L1_total": 40,
+    "L1_body_chapters_excluding_cover_and_toc": 38,
+    "L2_total": 1031,
+    "L2_median_chars": 815,
+    "L2_p95_chars": 4711,
+    "L2_max_chars": 165018,
+    "L2_flag_counts": {
+      "table_heavy_check_structure": 42,
+      "very_long_section_not_split": 3,
+      "tiny_section": 91,
+      "heading_only": 57,
+      "contains_image_only_page": 5,
+      "ocr_low_confidence_pages_present": 4,
+      "chapter_has_no_internal_headings_detected": 1,
+      "contains_scanned_page_with_embedded_ocr_layer": 1
+    },
+    "L1_flag_counts": {
+      "front_matter": 1,
+      "contents_page": 1,
+      "very_long_section_not_split": 18,
+      "start_moved_up_to_section_divider": 7,
+      "table_heavy_check_structure": 5,
+      "contains_image_only_page": 3,
+      "ocr_low_confidence_pages_present": 2,
+      "contains_scanned_page_with_embedded_ocr_layer": 1,
+      "manual_override": 2,
+      "scanned_insert_F1_to_F36": 1,
+      "heading_text_is_on_divider_page_235": 1
+    },
+    "image_only_pages": [
+      162,
+      163,
+      236,
+      237,
+      238,
+      239,
+      240,
+      241,
+      299
+    ],
+    "full_page_image_with_text_layer_pages": [
+      242,
+      243,
+      244,
+      245,
+      246,
+      247,
+      248,
+      249,
+      250,
+      251,
+      252,
+      253,
+      254,
+      255,
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      262,
+      263,
+      264,
+      265,
+      266,
+      267,
+      268,
+      269,
+      270,
+      271
+    ],
+    "ocr_pages_run": 39,
+    "ocr_mean_conf_over_pages": 78.0,
+    "ocr_pages_conf_lt_60": [
+      162,
+      163,
+      251,
+      258,
+      263
+    ],
+    "char_artifacts": {
+      "ligature_chars": 0,
+      "cid_patterns": 0,
+      "mojibake_patterns": 0,
+      "soft_hyphens": 0,
+      "control_chars": 0,
+      "replacement_chars_U+FFFD": 0,
+      "pua_pages": [],
+      "kerning_split_word_candidates_total": 27,
+      "kerning_split_top": [
+        [
+          "A PRICE",
+          3
+        ],
+        [
+          "A SHARE",
+          3
+        ],
+        [
+          "S ABSOLUTE",
+          2
+        ],
+        [
+          "P BSE",
+          1
+        ],
+        [
+          "S SHAREHOLDERS",
+          1
+        ],
+        [
+          "A GLIMPSE",
+          1
+        ]
+      ]
+    },
+    "conservation": {
+      "nonws_chars_pages": 1070067,
+      "nonws_chars_L1_raw": 1070067,
+      "nonws_chars_L2_raw": 1070067,
+      "L1_equals_pages": true,
+      "L2_equals_pages": true,
+      "pages_not_in_any_L1": [],
+      "duplicate_example_ids": 0,
+      "company_names_in_doc": [
+        "Quanto Agroworld Limited"
+      ],
+      "source_files_in_doc": [
+        "quanto-updated-prospectus-1646-pm-final.pdf"
+      ]
+    },
+    "risk_factor_numbering": {
+      "chapter_example_id": "quanto_agroworld-L1-006",
+      "pdf_pages": "19-48",
+      "L2_in_chapter": 87,
+      "numbered_risk_headings_detected": 73,
+      "distinct": 73,
+      "max_number": 82,
+      "numbers_missing_from_1_to_max": 9,
+      "sample_missing": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "toc": {
+      "toc_entries_parsed_total": 36,
+      "toc_entries_unresolved": 0,
+      "anchoring": {
+        "anchored_on_TOC_page": 36,
+        "anchored_by_forward_scan": 0,
+        "anchored_by_printed_page_only": 0
+      },
+      "toc_vs_body_page_discrepancies": [
+        {
+          "example_id": "quanto_agroworld-L1-015",
+          "heading": "CAPITAL STRUCTURE",
+          "toc_printed": 63,
+          "body_printed": 64,
+          "pdf_page": 68
+        }
+      ]
+    },
+    "boundary_integrity": {
+      "toc_leak_sections": [],
+      "toc_anchored_chapters_whose_first_8_lines_lack_the_heading": []
+    }
+  }
+}

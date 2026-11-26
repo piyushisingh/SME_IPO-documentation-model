@@ -1,0 +1,50 @@
+[
+  {
+    "doc_id": "century",
+    "source_filename": "Century.pdf",
+    "sha256": "be30612c31cf5327d31d7a6547e3ba07be3e066a180493a3920425f28db16dd8",
+    "size_bytes": 4745930,
+    "n_pages": 303,
+    "n_pages_no_text": 0
+  },
+  {
+    "doc_id": "photonics_watertech",
+    "source_filename": "DRHPPHOTONICSWATERTECHLIMITED.pdf",
+    "sha256": "a94f3f03b6617f566ed1c6e3ac2ecb49e9a75a29de0873f8224e166fe4edb72e",
+    "size_bytes": 6826699,
+    "n_pages": 391,
+    "n_pages_no_text": 0
+  },
+  {
+    "doc_id": "maxwell_engineering",
+    "source_filename": "DRHP_Maxwell.pdf",
+    "sha256": "fb1f4790342ce215dbeed26113f4d7ba8094b0a6318acfc42c52f2a59ce9b985",
+    "size_bytes": 8268258,
+    "n_pages": 381,
+    "n_pages_no_text": 0
+  },
+  {
+    "doc_id": "ideas_electricals",
+    "source_filename": "Ideas_Electricals__Engineers_DRHP_Hem_SME.pdf",
+    "sha256": "1c2f6d53b3dba92da2facc3adfa4d6ee205dbfa4401ea734527920e96f5f9360",
+    "size_bytes": 8730684,
+    "n_pages": 345,
+    "n_pages_no_text": 0
+  },
+  {
+    "doc_id": "axiom_gas",
+    "source_filename": "Red_Herring_Prospectus_AXIOM.pdf",
+    "sha256": "0d27c154659eb27e2d398946ceff8fdc597347d00110bb6ea9416cf653bfa570",
+    "size_bytes": 5158002,
+    "n_pages": 382,
+    "n_pages_no_text": 0
+  },
+  {
+    "doc_id": "quanto_agroworld",
+    "source_filename": "quanto-updated-prospectus-1646-pm-final.pdf",
+    "sha256": "49311506bb920f208aef719ddcbdf2692ef46de1658549f4f15ca5fc45bcc006",
+    "size_bytes": 13526948,
+    "n_pages": 377,
+    "n_pages_no_text": 0
+  }
+]

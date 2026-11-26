@@ -1,0 +1,164 @@
+{
+  "split_level": "document",
+  "n_documents": 6,
+  "assignment": {
+    "photonics_watertech": {
+      "split": "train",
+      "document_type(s)": [
+        "DRHP"
+      ],
+      "examples": 1040
+    },
+    "maxwell_engineering": {
+      "split": "train",
+      "document_type(s)": [
+        "DRHP"
+      ],
+      "examples": 992
+    },
+    "axiom_gas": {
+      "split": "train",
+      "document_type(s)": [
+        "ABRIDGED_PROSPECTUS",
+        "RHP"
+      ],
+      "examples": 820
+    },
+    "quanto_agroworld": {
+      "split": "train",
+      "document_type(s)": [
+        "FINAL_PROSPECTUS_FIXED_PRICE"
+      ],
+      "examples": 949
+    },
+    "century": {
+      "split": "validation",
+      "document_type(s)": [
+        "RHP"
+      ],
+      "examples": 731
+    },
+    "ideas_electricals": {
+      "split": "test",
+      "document_type(s)": [
+        "DRHP"
+      ],
+      "examples": 830
+    }
+  },
+  "documents_by_split": {
+    "train": [
+      "photonics_watertech",
+      "maxwell_engineering",
+      "axiom_gas",
+      "quanto_agroworld"
+    ],
+    "validation": [
+      "century"
+    ],
+    "test": [
+      "ideas_electricals"
+    ]
+  },
+  "rationale": "test=Ideas (DRHP, text-clean, no scanned pages); validation=Century (RHP, text-clean); train=Photonics, Maxwell, AXIOM (abridged+RHP kept together), Quanto (fixed-price final prospectus). Chosen from document type/cleanliness and category coverage only, not from any model results.",
+  "limitations": [
+    "single-document validation and test sets: metrics are dominated by one company's filing and carry very wide uncertainty",
+    "Century (validation) is the only book-built RHP outside train; Quanto (fixed-price final prospectus) exists only in train, so the evaluation never tests the fixed-price document type",
+    "labels are rule-derived from chapter titles, so evaluation measures agreement with those rules, not with human-verified truth",
+    "the test document's extraction was inspected during extraction debugging (heading/segmentation checks), though no model has seen it and its labels were not tuned",
+    "boilerplate text recurs across SME prospectuses; see duplicate_report.csv for cross-split near-duplicates"
+  ],
+  "leave_one_document_out_folds": [
+    {
+      "fold": 1,
+      "held_out": "photonics_watertech",
+      "train": [
+        "maxwell_engineering",
+        "axiom_gas",
+        "quanto_agroworld",
+        "century",
+        "ideas_electricals"
+      ]
+    },
+    {
+      "fold": 2,
+      "held_out": "maxwell_engineering",
+      "train": [
+        "photonics_watertech",
+        "axiom_gas",
+        "quanto_agroworld",
+        "century",
+        "ideas_electricals"
+      ]
+    },
+    {
+      "fold": 3,
+      "held_out": "axiom_gas",
+      "train": [
+        "photonics_watertech",
+        "maxwell_engineering",
+        "quanto_agroworld",
+        "century",
+        "ideas_electricals"
+      ]
+    },
+    {
+      "fold": 4,
+      "held_out": "quanto_agroworld",
+      "train": [
+        "photonics_watertech",
+        "maxwell_engineering",
+        "axiom_gas",
+        "century",
+        "ideas_electricals"
+      ]
+    },
+    {
+      "fold": 5,
+      "held_out": "century",
+      "train": [
+        "photonics_watertech",
+        "maxwell_engineering",
+        "axiom_gas",
+        "quanto_agroworld",
+        "ideas_electricals"
+      ]
+    },
+    {
+      "fold": 6,
+      "held_out": "ideas_electricals",
+      "train": [
+        "photonics_watertech",
+        "maxwell_engineering",
+        "axiom_gas",
+        "quanto_agroworld",
+        "century"
+      ]
+    }
+  ],
+  "categories_absent_per_split": {
+    "train": [
+      "other"
+    ],
+    "validation": [
+      "other"
+    ],
+    "test": [
+      "other"
+    ]
+  },
+  "categories_under_5_examples_per_split": {
+    "train": [
+      "qualitative_factors"
+    ],
+    "validation": [
+      "declarations",
+      "qualitative_factors"
+    ],
+    "test": [
+      "declarations",
+      "qualitative_factors"
+    ]
+  },
+  "test_set_policy": "frozen: do not change labels, rules or extraction for the test document based on test results; if rules change, re-derive and re-declare the test set as no longer untouched"
+}

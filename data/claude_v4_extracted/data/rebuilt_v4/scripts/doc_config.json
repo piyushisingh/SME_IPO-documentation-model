@@ -1,0 +1,130 @@
+{
+  "century": {
+    "source_filename": "Century.pdf",
+    "company_name": "Century Business Media Limited",
+    "company_name_evidence": "pdf_page 1 cover: 'CENTURY BUSINESS MEDIA LIMITED (Formerly known as Century Business Private Limited)'",
+    "cover_assert": "CENTURY BUSINESS MEDIA LIMITED",
+    "exchange_platform_note": "BSE SME (per risk-factor text); book-built",
+    "parts": [
+      {
+        "part": "main",
+        "pdf_start": 1,
+        "pdf_end": 303,
+        "document_type": "RHP",
+        "doc_date": "2026-09-05"
+      }
+    ],
+    "toc_pdf_page": 3
+  },
+  "photonics_watertech": {
+    "source_filename": "DRHPPHOTONICSWATERTECHLIMITED.pdf",
+    "company_name": "Photonics Watertech Limited",
+    "company_name_evidence": "pdf_page 1 cover: 'PHOTONICS WATERTECH LIMITED'",
+    "cover_assert": "PHOTONICS WATERTECH LIMITED",
+    "parts": [
+      {
+        "part": "main",
+        "pdf_start": 1,
+        "pdf_end": 391,
+        "document_type": "DRHP",
+        "doc_date": "2026-06-30"
+      }
+    ],
+    "toc_pdf_page": 4
+  },
+  "maxwell_engineering": {
+    "source_filename": "DRHP_Maxwell.pdf",
+    "company_name": "Maxwell Engineering Solutions Limited",
+    "company_name_evidence": "pdf_page 1 cover: 'MAXWELL ENGINEERING SOLUTIONS LIMITED'",
+    "cover_assert": "MAXWELL ENGINEERING SOLUTIONS LIMITED",
+    "parts": [
+      {
+        "part": "main",
+        "pdf_start": 1,
+        "pdf_end": 381,
+        "document_type": "DRHP",
+        "doc_date": "2026-08-15"
+      }
+    ],
+    "toc_pdf_page": 5
+  },
+  "ideas_electricals": {
+    "source_filename": "Ideas_Electricals__Engineers_DRHP_Hem_SME.pdf",
+    "company_name": "Ideas Electricals & Engineers Limited",
+    "company_name_evidence": "pdf_page 1 cover: 'IDEAS ELECTRICALS & ENGINEERS LIMITED'",
+    "cover_assert": "IDEAS ELECTRICALS & ENGINEERS LIMITED",
+    "parts": [
+      {
+        "part": "main",
+        "pdf_start": 1,
+        "pdf_end": 345,
+        "document_type": "DRHP",
+        "doc_date": "2026-09-02"
+      }
+    ],
+    "toc_pdf_page": 3
+  },
+  "axiom_gas": {
+    "source_filename": "Red_Herring_Prospectus_AXIOM.pdf",
+    "company_name": "Axiom Gas Engineering Limited",
+    "company_name_evidence": "pdf_page 1 and 15 cover: 'AXIOM GAS ENGINEERING LIMITED'",
+    "cover_assert": "AXIOM GAS ENGINEERING LIMITED",
+    "parts": [
+      {
+        "part": "abridged",
+        "pdf_start": 1,
+        "pdf_end": 13,
+        "document_type": "ABRIDGED_PROSPECTUS",
+        "doc_date": "2026-09-04",
+        "evidence": "pdf_page 1-2: 'IN THE NATURE OF ABRIDGED PROSPECTUS - MEMORANDUM CONTAINING SALIENT FEATURES OF THE RED HERRING PROSPECTUS'; pdf_page 13 ends with 'DECLARATION BY THE COMPANY'"
+      },
+      {
+        "part": "rhp",
+        "pdf_start": 14,
+        "pdf_end": 382,
+        "document_type": "RHP",
+        "doc_date": "2026-09-04",
+        "evidence": "pdf_page 14/15: 'RED HERRING PROSPECTUS Dated September 04, 2026'; TOC on pdf_page 17; DECLARATION on pdf_page 382"
+      }
+    ],
+    "toc_pdf_page": 17
+  },
+  "quanto_agroworld": {
+    "source_filename": "quanto-updated-prospectus-1646-pm-final.pdf",
+    "company_name": "Quanto Agroworld Limited",
+    "company_name_evidence": "pdf_page 1 cover: 'QUANTO AGROWORLD LIMITED'",
+    "cover_assert": "QUANTO AGROWORLD LIMITED",
+    "parts": [
+      {
+        "part": "main",
+        "pdf_start": 1,
+        "pdf_end": 377,
+        "document_type": "FINAL_PROSPECTUS_FIXED_PRICE",
+        "doc_date": "2026-09-08"
+      }
+    ],
+    "toc_pdf_page": 4,
+    "l1_splits": [
+      {
+        "at_pdf_page": 236,
+        "title": "Restated Financial Statements",
+        "heading_source": "manual_override_from_index_page",
+        "flags": [
+          "manual_override",
+          "scanned_insert_F1_to_F36"
+        ],
+        "evidence": "pdf_page 235 index row: '1. Restated Financial Statements  F – 1 to F – 36'; pdf_pages 236-241 contain only page labels F-1..F-6 over full-page images; pdf_page 242-271 are full-page images with an embedded (noisy) OCR layer"
+      },
+      {
+        "at_pdf_page": 272,
+        "title": "CAPITALIZATION STATEMENT",
+        "heading_source": "manual_override_continuation",
+        "flags": [
+          "manual_override",
+          "heading_text_is_on_divider_page_235"
+        ],
+        "evidence": "pdf_page 235 shows the heading 'CAPITALIZATION STATEMENT' (printed 231) as a divider; the table body is on pdf_page 272 (printed 232) after the F-1..F-36 insert"
+      }
+    ]
+  }
+}
